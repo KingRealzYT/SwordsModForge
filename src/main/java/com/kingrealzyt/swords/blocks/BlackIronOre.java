@@ -12,7 +12,8 @@ public class BlackIronOre extends OreBlock {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(5.0F, 6.0F)
                 .sound(SoundType.METAL)
-                .harvestLevel(3)
+                .harvestLevel(2)
+                .setRequiresTool()
                 .harvestTool(ToolType.PICKAXE));
     }
 }

@@ -28,5 +28,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore", SilverOre::new);
     public static final RegistryObject<Block> BRUH_BLOCK = BLOCKS.register("bruh_block", BruhBlock::new);
     public static final RegistryObject<Block> BRUH_ORE = BLOCKS.register("bruh_ore", BruhOre::new);
+    public static final RegistryObject<Block> HELL_IRON_BLOCK = BLOCKS.register("hell_iron_block", HellIronBlock::new);
+    public static final RegistryObject<Block> HELL_IRON_ORE = BLOCKS.register("hell_iron_ore", HellIronOre::new);
 
 }

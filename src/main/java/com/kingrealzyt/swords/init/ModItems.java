@@ -91,4 +91,10 @@ public class ModItems {
     public static final RegistryObject<Item> BRUH_BLOCK_ITEM = ITEMS.register("bruh_block",
             () -> new BlockItemBase(ModBlocks.BRUH_BLOCK.get()));
 
+    public static final RegistryObject<Item> HELL_IRON_BLOCK_ITEM = ITEMS.register("hell_iron_block_item",
+            () -> new BlockItemBase(ModBlocks.HELL_IRON_BLOCK.get()));
+
+    public static final RegistryObject<Item> HELL_IRON_ORE_ITEM = ITEMS.register("hell_iron_ore_item",
+            () -> new BlockItemBase(ModBlocks.HELL_IRON_ORE.get()));
+
 }
