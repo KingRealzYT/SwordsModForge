@@ -1,1 +1,1 @@
-gradle buld
+gradlew build
