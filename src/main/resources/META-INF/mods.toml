@@ -1,6 +1,8 @@
 
 modLoader="javafml" #mandatory
 
+license="CC0-1.0"
+
 loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
 issueTrackerURL="http://my.issue.tracker/" #optional
@@ -19,7 +21,7 @@ displayURL="https://www.youtube.com/kingrealzyt" #optional
 
 logoFile="vampiric_sword.png" #optional
 
-credits="Textures by Azzy and Realz with help from goldrat1" #optional
+credits="Textures by Azzy and Realz with help from goldrat1 and G1" #optional
 
 authors="KingRealzYT" #optional
 

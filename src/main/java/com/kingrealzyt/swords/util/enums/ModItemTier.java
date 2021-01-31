@@ -1,6 +1,5 @@
 package com.kingrealzyt.swords.util.enums;
 
-import com.kingrealzyt.swords.init.ModBlocks;
 import com.kingrealzyt.swords.init.ModItems;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
@@ -33,11 +32,25 @@ public enum ModItemTier implements IItemTier {
     HELL(3, 1571, 7.0F, 7.0F, 12, () -> {
         return Ingredient.fromItems(ModItems.HELL_IRON_INGOT.get());
     }),
+
+    ENDER(3, 1571, 7.0F, 7.0F, 12, () -> {
+        return Ingredient.fromItems(ModItems.INFESTED_SWORD.get());
+    }),
+
     VAMPRIC(3, 1571, 7.0F, 9.0F, 12, () -> {
         return Ingredient.fromItems(ModItems.VAMPIRIC_SWORD.get());
     }),
+
     INFESTED(3, 1571, 7.0F, 9.0F, 12, () -> {
         return Ingredient.fromItems(ModItems.INFESTED_SWORD.get());
+    }),
+
+    HELL_BENDER(3, 1571, 7.0F, 9.0F, 12, () -> {
+        return Ingredient.fromItems(ModItems.HELL_BENDER_SWORD.get());
+    }),
+
+    HOLY(3, 2000, 7.0F, 12.0F, 15, () -> {
+        return Ingredient.fromItems(ModItems.HOLY_SWORD.get());
     });
 
 

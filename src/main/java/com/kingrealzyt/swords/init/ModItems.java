@@ -14,7 +14,7 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Swords.MOD_ID);
 
-    // Items
+    // Ingots
     public static final RegistryObject<Item> BLACK_IRON_INGOT = ITEMS.register("black_iron_ingot", ItemBase::new);
     public static final RegistryObject<Item> BLOOD_IRON_INGOT = ITEMS.register("blood_iron_ingot", ItemBase::new);
     public static final RegistryObject<Item> FIRE_INGOT = ITEMS.register("fire_ingot", ItemBase::new);
@@ -23,6 +23,15 @@ public class ModItems {
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot", ItemBase::new);
     public static final RegistryObject<Item> BRUH_INGOT = ITEMS.register("bruh_ingot", ItemBase::new);
     public static final RegistryObject<Item> HELL_IRON_INGOT = ITEMS.register("hell_iron_ingot", ItemBase::new);
+    public static final RegistryObject<Item> ENDER_INGOT = ITEMS.register("ender_ingot", ItemBase::new);
+
+    // Shards
+    public static final RegistryObject<Item> BLACK_IRON_SHARD = ITEMS.register("black_iron_shard", ItemBase::new);
+    public static final RegistryObject<Item> HELL_IRON_SHARD = ITEMS.register("hell_iron_shard", ItemBase::new);
+
+    // Sticks
+    public static final RegistryObject<Item> IRON_STICK = ITEMS.register("iron_stick", ItemBase::new);
+    public static final RegistryObject<Item> HELL_IRON_STICK = ITEMS.register("hell_iron_stick", ItemBase::new);
 
     // Swords
     public static final RegistryObject<SwordItem> BLACK_IRON_SWORD = ITEMS.register("black_iron_sword", () ->
@@ -41,12 +50,20 @@ public class ModItems {
             new SwordItem(ModItemTier.BRUH, 2, -2.4F, new Item.Properties().group(Swords.TAB)));
     public static final RegistryObject<SwordItem> HELL_IRON_SWORD = ITEMS.register("hell_iron_sword", () ->
             new SwordItem(ModItemTier.HELL, 2, -2.4F, new Item.Properties().group(Swords.TAB)));
+    public static final RegistryObject<SwordItem> ENDER_SWORD = ITEMS.register("ender_sword", () ->
+            new SwordItem(ModItemTier.ENDER, 2, -2.4F, new Item.Properties().group(Swords.TAB)));
 
     // Combined Swords
     public static final RegistryObject<SwordItem> VAMPIRIC_SWORD = ITEMS.register("vampiric_sword", () ->
             new SwordItem(ModItemTier.VAMPRIC, 1, -2.4F, new Item.Properties().group(Swords.TAB)));
     public static final RegistryObject<SwordItem> INFESTED_SWORD = ITEMS.register("infested_sword", () ->
             new SwordItem(ModItemTier.INFESTED, 1, -2.4F, new Item.Properties().group(Swords.TAB)));
+    public static final RegistryObject<SwordItem> HELL_BENDER_SWORD = ITEMS.register("hell_bender_sword", () ->
+            new SwordItem(ModItemTier.HELL_BENDER, 1, -2.4F, new Item.Properties().group(Swords.TAB)));
+
+    // Final Swords
+    public static final RegistryObject<SwordItem> HOLY_SWORD = ITEMS.register("holy_sword", () ->
+            new SwordItem(ModItemTier.HOLY, 1, -2.4F, new Item.Properties().group(Swords.TAB)));
 
     // Block Items
     public static final RegistryObject<Item> BLACK_IRON_BLOCK_ITEM = ITEMS.register("black_iron_block",
@@ -91,10 +108,10 @@ public class ModItems {
     public static final RegistryObject<Item> BRUH_BLOCK_ITEM = ITEMS.register("bruh_block",
             () -> new BlockItemBase(ModBlocks.BRUH_BLOCK.get()));
 
-    public static final RegistryObject<Item> HELL_IRON_BLOCK_ITEM = ITEMS.register("hell_iron_block_item",
+    public static final RegistryObject<Item> HELL_IRON_BLOCK_ITEM = ITEMS.register("hell_iron_block",
             () -> new BlockItemBase(ModBlocks.HELL_IRON_BLOCK.get()));
 
-    public static final RegistryObject<Item> HELL_IRON_ORE_ITEM = ITEMS.register("hell_iron_ore_item",
+    public static final RegistryObject<Item> HELL_IRON_ORE_ITEM = ITEMS.register("hell_iron_ore",
             () -> new BlockItemBase(ModBlocks.HELL_IRON_ORE.get()));
 
 }

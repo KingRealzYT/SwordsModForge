@@ -2,9 +2,11 @@ package com.kingrealzyt.swords;
 
 import com.kingrealzyt.swords.init.ModBlocks;
 import com.kingrealzyt.swords.init.ModItems;
+import com.kingrealzyt.swords.world.gen.ModOreGen;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -26,6 +28,7 @@ public class Swords
 
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, ModOreGen::generateOres);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -37,7 +40,6 @@ public class Swords
     private void doClientStuff(final FMLClientSetupEvent event) { }
 
 public static final ItemGroup TAB = new ItemGroup("swordstab") {
-
     @Override
     public ItemStack createIcon() {
         return new ItemStack(ModItems.VAMPIRIC_SWORD.get());
