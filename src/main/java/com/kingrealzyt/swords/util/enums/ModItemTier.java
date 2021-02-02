@@ -2,6 +2,7 @@ package com.kingrealzyt.swords.util.enums;
 
 import com.kingrealzyt.swords.init.ModItems;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.crafting.Ingredient;
 
 import java.util.function.Supplier;

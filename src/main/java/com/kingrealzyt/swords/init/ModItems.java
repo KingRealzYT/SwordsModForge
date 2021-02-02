@@ -28,6 +28,8 @@ public class ModItems {
     // Shards
     public static final RegistryObject<Item> BLACK_IRON_SHARD = ITEMS.register("black_iron_shard", ItemBase::new);
     public static final RegistryObject<Item> HELL_IRON_SHARD = ITEMS.register("hell_iron_shard", ItemBase::new);
+    public static final RegistryObject<Item> FIRE_SHARD = ITEMS.register("fire_shard", ItemBase::new);
+    public static final RegistryObject<Item> ENDER_SHARD = ITEMS.register("ender_shard", ItemBase::new);
 
     // Sticks
     public static final RegistryObject<Item> IRON_STICK = ITEMS.register("iron_stick", ItemBase::new);
@@ -113,5 +115,11 @@ public class ModItems {
 
     public static final RegistryObject<Item> HELL_IRON_ORE_ITEM = ITEMS.register("hell_iron_ore",
             () -> new BlockItemBase(ModBlocks.HELL_IRON_ORE.get()));
+
+    public static final RegistryObject<Item> ENDER_BLOCK_ITEM = ITEMS.register("ender_block",
+            () -> new BlockItemBase(ModBlocks.ENDER_BLOCK.get()));
+
+    public static final RegistryObject<Item> ENDER_ORE_ITEM = ITEMS.register("ender_ore",
+            () -> new BlockItemBase(ModBlocks.ENDER_ORE.get()));
 
 }

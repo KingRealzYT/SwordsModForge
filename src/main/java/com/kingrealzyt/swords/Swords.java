@@ -2,11 +2,17 @@ package com.kingrealzyt.swords;
 
 import com.kingrealzyt.swords.init.ModBlocks;
 import com.kingrealzyt.swords.init.ModItems;
+import com.kingrealzyt.swords.items.SwordsEffects;
 import com.kingrealzyt.swords.world.gen.ModOreGen;
+import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.Potions;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -29,6 +35,7 @@ public class Swords
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, ModOreGen::generateOres);
+        MinecraftForge.EVENT_BUS.addListener(SwordsEffects::swordEffects);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
