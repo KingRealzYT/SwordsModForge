@@ -1,4 +1,9 @@
 {
+  "item.rswords.black_iron_shard": "Black Iron Shard",
+  "item.rswords.hell_iron_shard": "Hell Iron Shard",
+  "item.rswords.fire_shard": "Fire Shard",
+  "item.rswords.ender_shard": "Ender Shard",
+
   "item.rswords.black_iron_ingot": "Black Iron Ingot",
   "item.rswords.blood_iron_ingot": "Blood Iron Ingot",
   "item.rswords.fire_ingot": "Fire Ingot",
@@ -7,6 +12,10 @@
   "item.rswords.silver_ingot": "Silver Ingot",
   "item.rswords.bruh_ingot": "Bruh Ingot!",
   "item.rswords.hell_iron_ingot": "Hell Iron Ingot",
+  "item.rswords.ender_ingot": "Ender Ingot",
+
+  "item.rswords.iron_stick": "Iron Stick",
+  "item.rswords.hell_iron_stick": "Hell Iron Stick",
 
   "block.rswords.black_iron_block": "Block of Black Iron",
   "block.rswords.blood_iron_block": "Block of Blood Iron",
@@ -16,6 +25,7 @@
   "block.rswords.silver_block": "Block of Silver",
   "block.rswords.bruh_block": "Block of Concentrated Bruh!",
   "block.rswords.hell_iron_block": "Block of Hell Iron",
+  "block.rswords.ender_block": "Block of Ender",
 
   "block.rswords.black_iron_ore": "Black Iron Ore",
   "block.rswords.blood_iron_ore": "Blood Iron Ore",
@@ -25,6 +35,7 @@
   "block.rswords.silver_ore": "Silver Ore",
   "block.rswords.bruh_ore": "Bruh Ore!",
   "block.rswords.hell_iron_ore": "Hell Iron Ore",
+  "block.rswords.ender_ore": "Ender Ore",
 
   "item.rswords.black_iron_sword": "Black Iron Sword",
   "item.rswords.blood_iron_sword": "Blood Iron Sword",
@@ -34,9 +45,18 @@
   "item.rswords.silver_sword": "Silver Sword",
   "item.rswords.bruh_sword": "Bruh Sword!",
   "item.rswords.hell_iron_sword": "Hell Iron Sword",
+  "item.rswords.ender_sword": "Ender Sword",
 
   "item.rswords.vampiric_sword": "Vampiric Sword",
   "item.rswords.infested_sword": "Infested Sword",
+  "item.rswords.hell_bender_sword": "Hell Bender Sword",
 
-  "itemGroup.swordstab": "Swords Mod"
+  "item.rswords.holy_sword": "Holy Sword",
+
+  "itemGroup.ingottab": "Swords Mod | Ingots",
+  "itemGroup.shardtab": "Swords Mod | Shards",
+  "itemGroup.sticktab": "Swords Mod | Sticks",
+  "itemGroup.swordstab": "Swords Mod | Swords",
+  "itemGroup.blockstab": "Swords Mod | Blocks",
+  "itemGroup.oretab": "Swords Mod | Ores"
 }
