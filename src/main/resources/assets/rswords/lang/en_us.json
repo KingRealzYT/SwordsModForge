@@ -53,5 +53,10 @@
 
   "item.rswords.holy_sword": "Holy Sword",
 
-  "itemGroup.swordstab": "Swords Mod"
+  "itemGroup.ingottab": "Swords Mod | Ingots",
+  "itemGroup.shardtab": "Swords Mod | Shards",
+  "itemGroup.sticktab": "Swords Mod | Sticks",
+  "itemGroup.swordstab": "Swords Mod | Swords",
+  "itemGroup.blockstab": "Swords Mod | Blocks",
+  "itemGroup.oretab": "Swords Mod | Ores"
 }

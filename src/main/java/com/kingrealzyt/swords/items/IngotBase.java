@@ -14,9 +14,9 @@ import net.minecraft.potion.Potions;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EntityDamageSource;
 
-public class ItemBase extends Item {
+public class IngotBase extends Item {
 
-    public ItemBase() {
-        super(new Item.Properties().group(Swords.TAB));
+    public IngotBase() {
+        super(new Item.Properties().group(Swords.INGOTTAB));
     }
 }
