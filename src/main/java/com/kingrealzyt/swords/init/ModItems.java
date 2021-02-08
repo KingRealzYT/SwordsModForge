@@ -31,8 +31,8 @@ public class ModItems {
 
     // Shards
     public static final RegistryObject<Item> BLACK_IRON_SHARD = ITEMS.register("black_iron_shard", ShardBase::new);
-    public static final RegistryObject<Item> HELL_IRON_SHARD = ITEMS.register("hell_iron_shard", ShardBase::new);
     public static final RegistryObject<Item> FIRE_SHARD = ITEMS.register("fire_shard", ShardBase::new);
+    public static final RegistryObject<Item> HELL_IRON_SHARD = ITEMS.register("hell_iron_shard", ShardBase::new);
     public static final RegistryObject<Item> ENDER_SHARD = ITEMS.register("ender_shard", ShardBase::new);
 
     // Sticks
