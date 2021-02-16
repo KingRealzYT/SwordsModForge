@@ -6,7 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rswords:black_iron_ore"
+          "name": "rswords:black_iron_shard",
+          "count": {
+            "min": 1,
+            "max": 4
+          }
         }
       ]
     }

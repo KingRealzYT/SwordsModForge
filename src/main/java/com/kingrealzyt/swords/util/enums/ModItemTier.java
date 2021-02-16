@@ -35,7 +35,7 @@ public enum ModItemTier implements IItemTier {
     }),
 
     ENDER(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.INFESTED_SWORD.get());
+        return Ingredient.fromItems(ModItems.ENDER_INGOT.get());
     }),
 
     VAMPRIC(3, 1571, 7.0F, 9.0F, 12, () -> {

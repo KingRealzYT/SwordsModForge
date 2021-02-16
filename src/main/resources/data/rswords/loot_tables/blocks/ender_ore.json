@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "rswords:fire_ore",
+          "name": "rswords:ender_shard",
           "count": {
             "min": 1,
             "max": 4
