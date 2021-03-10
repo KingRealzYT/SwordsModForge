@@ -18,24 +18,19 @@ public class InfestedSword extends SwordItem {
     }
 
     @Override
-    public boolean hasEffect(ItemStack itemstack) {
-        return true;
-    }
-
-    @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity entity, LivingEntity player) {
-        entity.addPotionEffect(new EffectInstance(Effects.POISON, 100, 1, false, false));
+    public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
+        entity.addEffect(new EffectInstance(Effects.POISON, 100, 1, false, false));
         assert Minecraft.getInstance().player != null;
-        if (!Minecraft.getInstance().player.getCooldownTracker().hasCooldown(this)) {
-            LightningBoltEntity lightning = EntityType.LIGHTNING_BOLT.create(player.world);
-            lightning.setPosition(entity.getPosX(), entity.getPosY(), entity.getPosZ());
-            player.world.addEntity(lightning);
+        if (!Minecraft.getInstance().player.getCooldowns().isOnCooldown(this)) {
+            LightningBoltEntity lightning = EntityType.LIGHTNING_BOLT.create(player.level);
+            lightning.setPos(entity.getX(), entity.getY(), entity.getZ());
+            player.level.addFreshEntity(lightning);
             assert Minecraft.getInstance().player != null;
-            Minecraft.getInstance().player.getCooldownTracker().setCooldown(this, 200);
-            ActionResult.resultSuccess(Minecraft.getInstance().player.getHeldItem(player.getActiveHand()));
+            Minecraft.getInstance().player.getCooldowns().addCooldown(this, 200);
+            ActionResult.success(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
             return true;
         }
-        ActionResult.resultFail(Minecraft.getInstance().player.getHeldItem(player.getActiveHand()));
+        ActionResult.fail(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
         return true;
     }
 }

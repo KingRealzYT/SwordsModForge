@@ -6,6 +6,6 @@ import net.minecraft.item.Item;
 public class ShardBase extends Item {
 
     public ShardBase() {
-        super(new Properties().group(Swords.SHARDTAB));
+        super(new Properties().tab(Swords.SHARDTAB));
     }
 }

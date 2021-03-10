@@ -10,48 +10,48 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     BLACK_IRON(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.BLACK_IRON_INGOT.get());
+        return Ingredient.of(ModItems.BLACK_IRON_INGOT.get());
     }),
     BLOOD_IRON(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.BLOOD_IRON_INGOT.get());
+        return Ingredient.of(ModItems.BLOOD_IRON_INGOT.get());
     }),
     FIRE(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.FIRE_INGOT.get());
+        return Ingredient.of(ModItems.FIRE_INGOT.get());
     }),
     CRIMSON(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.CRIMSON_INGOT.get());
+        return Ingredient.of(ModItems.CRIMSON_INGOT.get());
     }),
     COBALT(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.COBALT_INGOT.get());
+        return Ingredient.of(ModItems.COBALT_INGOT.get());
     }),
     SILVER(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.SILVER_INGOT.get());
+        return Ingredient.of(ModItems.SILVER_INGOT.get());
     }),
     BRUH(3, 1600, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.BRUH_INGOT.get());
+        return Ingredient.of(ModItems.BRUH_INGOT.get());
     }),
     HELL(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.HELL_IRON_INGOT.get());
+        return Ingredient.of(ModItems.HELL_IRON_INGOT.get());
     }),
 
     ENDER(3, 1571, 7.0F, 7.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.ENDER_INGOT.get());
+        return Ingredient.of(ModItems.ENDER_INGOT.get());
     }),
 
     VAMPRIC(3, 1571, 7.0F, 9.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.VAMPIRIC_SWORD.get());
+        return Ingredient.of(ModItems.VAMPIRIC_SWORD.get());
     }),
 
     INFESTED(3, 1571, 7.0F, 9.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.INFESTED_SWORD.get());
+        return Ingredient.of(ModItems.INFESTED_SWORD.get());
     }),
 
     HELL_BENDER(3, 1571, 7.0F, 9.0F, 12, () -> {
-        return Ingredient.fromItems(ModItems.HELL_BENDER_SWORD.get());
+        return Ingredient.of(ModItems.HELL_BENDER_SWORD.get());
     }),
 
     HOLY(3, 2000, 7.0F, 12.0F, 15, () -> {
-        return Ingredient.fromItems(ModItems.HOLY_SWORD.get());
+        return Ingredient.of(ModItems.HOLY_SWORD.get());
     });
 
 
@@ -72,32 +72,32 @@ public enum ModItemTier implements IItemTier {
     }
 
     @Override
-    public int getMaxUses() {
-        return maxUses;
+    public int getUses() {
+        return 0;
     }
 
     @Override
-    public float getEfficiency() {
-        return efficiency;
+    public float getSpeed() {
+        return 0;
     }
 
     @Override
-    public float getAttackDamage() {
-        return attackDamage;
+    public float getAttackDamageBonus() {
+        return 0;
     }
 
     @Override
-    public int getHarvestLevel() {
-        return harvestLevel;
+    public int getLevel() {
+        return 0;
     }
 
     @Override
-    public int getEnchantability() {
-        return enchantability;
+    public int getEnchantmentValue() {
+        return 0;
     }
 
     @Override
-    public Ingredient getRepairMaterial() {
-        return repairMaterial.get();
+    public Ingredient getRepairIngredient() {
+        return null;
     }
 }

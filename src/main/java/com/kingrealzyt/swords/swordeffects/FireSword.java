@@ -20,14 +20,9 @@ public class FireSword extends SwordItem {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
 
-    @Override
-    public boolean hasEffect(ItemStack itemstack) {
-        return true;
-    }
-
-    public boolean hitEntity(ItemStack par1ItemStack, LivingEntity par2EntityLiving, LivingEntity par3EntityLiving)
+    public boolean hurtEnemy(ItemStack par1ItemStack, LivingEntity par2EntityLiving, LivingEntity par3EntityLiving)
     {
-        par2EntityLiving.setFire(3);
+        par2EntityLiving.setSecondsOnFire(3);
         return true;
     }
 }

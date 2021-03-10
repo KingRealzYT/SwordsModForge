@@ -17,6 +17,6 @@ import net.minecraft.util.EntityDamageSource;
 public class IngotBase extends Item {
 
     public IngotBase() {
-        super(new Item.Properties().group(Swords.INGOTTAB));
+        super(new Item.Properties().tab(Swords.INGOTTAB));
     }
 }

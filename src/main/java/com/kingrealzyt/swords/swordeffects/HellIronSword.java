@@ -13,7 +13,6 @@ public class HellIronSword extends SwordItem {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
 
-    @Override
     public boolean hasEffect(ItemStack itemstack) {
         return true;
     }

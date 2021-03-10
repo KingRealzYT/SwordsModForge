@@ -41,35 +41,35 @@ public class ModItems {
 
     // Swords
     public static final RegistryObject<SwordItem> BLACK_IRON_SWORD = ITEMS.register("black_iron_sword", () ->
-            new BlackIronSword(ModItemTier.BLACK_IRON, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new BlackIronSword(ModItemTier.BLACK_IRON, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> BLOOD_IRON_SWORD = ITEMS.register("blood_iron_sword", () ->
-            new BloodIronSword(ModItemTier.BLOOD_IRON, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new BloodIronSword(ModItemTier.BLOOD_IRON, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> FIRE_SWORD = ITEMS.register("fire_sword", () ->
-            new FireSword(ModItemTier.FIRE, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new FireSword(ModItemTier.FIRE, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> CRIMSON_SWORD = ITEMS.register("crimson_sword", () ->
-            new CrimsonSword(ModItemTier.CRIMSON, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new CrimsonSword(ModItemTier.CRIMSON, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> COBALT_SWORD = ITEMS.register("cobalt_sword", () ->
-            new CobaltSword(ModItemTier.COBALT, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new CobaltSword(ModItemTier.COBALT, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> SILVER_SWORD = ITEMS.register("silver_sword", () ->
-            new SilverSword(ModItemTier.SILVER, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new SilverSword(ModItemTier.SILVER, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> BRUH_SWORD = ITEMS.register("bruh_sword", () ->
-            new BruhSword(ModItemTier.BRUH, 2, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new BruhSword(ModItemTier.BRUH, 2, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> HELL_IRON_SWORD = ITEMS.register("hell_iron_sword", () ->
-            new HellIronSword(ModItemTier.HELL, 2, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new HellIronSword(ModItemTier.HELL, 2, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> ENDER_SWORD = ITEMS.register("ender_sword", () ->
-            new EnderSword(ModItemTier.ENDER, 2, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new EnderSword(ModItemTier.ENDER, 2, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
 
     // Combined Swords
     public static final RegistryObject<SwordItem> VAMPIRIC_SWORD = ITEMS.register("vampiric_sword", () ->
-            new VampiricSword(ModItemTier.VAMPRIC, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new VampiricSword(ModItemTier.VAMPRIC, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> INFESTED_SWORD = ITEMS.register("infested_sword", () ->
-            new InfestedSword(ModItemTier.INFESTED, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new InfestedSword(ModItemTier.INFESTED, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> HELL_BENDER_SWORD = ITEMS.register("hell_bender_sword", () ->
-            new HellBenderSword(ModItemTier.HELL_BENDER, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new HellBenderSword(ModItemTier.HELL_BENDER, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
 
     // Final Swords
     public static final RegistryObject<SwordItem> HOLY_SWORD = ITEMS.register("holy_sword", () ->
-            new HolySword(ModItemTier.HOLY, 1, -2.4F, new Item.Properties().group(Swords.SWORDSTAB)));
+            new HolySword(ModItemTier.HOLY, 1, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
 
     // Block Items
     public static final RegistryObject<Item> BLACK_IRON_BLOCK_ITEM = ITEMS.register("black_iron_block",

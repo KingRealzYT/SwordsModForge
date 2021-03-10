@@ -8,11 +8,11 @@ import net.minecraftforge.common.ToolType;
 public class HellIronBlock extends Block {
 
     public HellIronBlock() {
-        super(Properties.create(Material.IRON)
-                .hardnessAndResistance(5.0F, 6.0F)
+        super(Properties.of(Material.METAL)
+                .strength(5.0F, 6.0F)
                 .sound(SoundType.METAL)
                 .harvestLevel(2)
-                .setRequiresTool()
+                .requiresCorrectToolForDrops()
                 .harvestTool(ToolType.PICKAXE));
     }
 }

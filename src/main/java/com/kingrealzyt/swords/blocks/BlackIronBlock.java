@@ -8,11 +8,11 @@ import net.minecraftforge.common.ToolType;
 public class BlackIronBlock extends Block {
 
     public BlackIronBlock() {
-        super(Properties.create(Material.IRON)
-                .hardnessAndResistance(5.0F, 6.0F)
+        super(Properties.of(Material.METAL)
+                .requiresCorrectToolForDrops()
+                .strength(5.0F, 6.0F)
                 .sound(SoundType.METAL)
                 .harvestLevel(2)
-                .setRequiresTool()
                 .harvestTool(ToolType.PICKAXE));
     }
 }

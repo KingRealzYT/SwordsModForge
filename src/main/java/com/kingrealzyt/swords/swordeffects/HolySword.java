@@ -18,23 +18,18 @@ public class HolySword extends SwordItem {
     }
 
     @Override
-    public boolean hasEffect(ItemStack itemstack) {
-        return true;
-    }
-
-    @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity entity, LivingEntity player) {
-        entity.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 100, 1, false, false));
-        entity.addPotionEffect(new EffectInstance(Effects.WEAKNESS, 100, 1, false, false));
-        entity.setFire(2);
-        entity.addPotionEffect(new EffectInstance(Effects.POISON, 100, 1, false, false));
-        if (!Minecraft.getInstance().player.getCooldownTracker().hasCooldown(this)) {
-            LightningBoltEntity lightning = EntityType.LIGHTNING_BOLT.create(player.world);
-            lightning.setPosition(entity.getPosX(), entity.getPosY(), entity.getPosZ());
-            player.world.addEntity(lightning);
+    public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
+        entity.addEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 100, 1, false, false));
+        entity.addEffect(new EffectInstance(Effects.WEAKNESS, 100, 1, false, false));
+        entity.setSecondsOnFire(2);
+        entity.addEffect(new EffectInstance(Effects.POISON, 100, 1, false, false));
+        if (!Minecraft.getInstance().player.getCooldowns().isOnCooldown(this)) {
+            LightningBoltEntity lightning = EntityType.LIGHTNING_BOLT.create(player.level);
+            lightning.setPos(entity.getX(), entity.getY(), entity.getZ());
+            player.level.addFreshEntity(lightning);
             assert Minecraft.getInstance().player != null;
-            Minecraft.getInstance().player.getCooldownTracker().setCooldown(this, 400);
-            ActionResult.resultSuccess(Minecraft.getInstance().player.getHeldItem(player.getActiveHand()));
+            Minecraft.getInstance().player.getCooldowns().addCooldown(this, 400);
+            ActionResult.success(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
             return true;
         }
         return true;

@@ -7,6 +7,6 @@ import net.minecraft.item.BlockItem;
 public class OreItemBase extends BlockItem {
 
     public OreItemBase(Block block) {
-        super(block, new Properties().group(Swords.ORETAB));
+        super(block, new Properties().tab(Swords.ORETAB));
     }
 }

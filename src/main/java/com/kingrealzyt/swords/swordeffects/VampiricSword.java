@@ -14,15 +14,10 @@ public class VampiricSword extends SwordItem {
     }
 
     @Override
-    public boolean hasEffect(ItemStack itemstack) {
-        return true;
-    }
-
-    @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity entity, LivingEntity player) {
-        entity.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 100, 1, false, false));
-        entity.addPotionEffect(new EffectInstance(Effects.WEAKNESS, 100, 1, false, false));
-        entity.setFire(2);
+    public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
+        entity.addEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 100, 1, false, false));
+        entity.addEffect(new EffectInstance(Effects.WEAKNESS, 100, 1, false, false));
+        entity.setSecondsOnFire(2);
         return true;
     }
 }

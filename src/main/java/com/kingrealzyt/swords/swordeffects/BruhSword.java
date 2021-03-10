@@ -12,9 +12,4 @@ public class BruhSword extends SwordItem {
     public BruhSword(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
-
-    @Override
-    public boolean hasEffect(ItemStack itemstack) {
-        return true;
-    }
 }

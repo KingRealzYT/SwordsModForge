@@ -6,6 +6,6 @@ import net.minecraft.item.Item;
 public class StickBase extends Item {
 
     public StickBase() {
-        super(new Properties().group(Swords.STICKTAB));
+        super(new Properties().tab(Swords.STICKTAB));
     }
 }

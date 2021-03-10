@@ -43,42 +43,42 @@ public class Swords
 
     public static final ItemGroup INGOTTAB = new ItemGroup("ingottab") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_INGOT.get());
         }
     };
 
     public static final ItemGroup SHARDTAB = new ItemGroup("shardtab") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_SHARD.get());
         }
     };
 
     public static final ItemGroup STICKTAB = new ItemGroup("sticktab") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(ModItems.HELL_IRON_STICK.get());
         }
     };
 
     public static final ItemGroup SWORDSTAB = new ItemGroup("swordstab") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(ModItems.VAMPIRIC_SWORD.get());
         }
     };
 
     public static final ItemGroup BLOCKSTAB = new ItemGroup("blockstab") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_BLOCK_ITEM.get());
         }
     };
 
     public static final ItemGroup ORETAB = new ItemGroup("oretab") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_ORE_ITEM.get());
         }
     };

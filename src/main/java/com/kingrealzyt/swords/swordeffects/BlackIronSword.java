@@ -14,13 +14,8 @@ public class BlackIronSword extends SwordItem {
     }
 
     @Override
-    public boolean hasEffect(ItemStack itemstack) {
-        return true;
-    }
-
-    @Override
-    public boolean hitEntity(ItemStack stack, LivingEntity entity, LivingEntity player) {
-        entity.addPotionEffect(new EffectInstance(Effects.SLOWNESS, 100, 2, false, false));
+    public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
+        entity.addEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 100, 2, false, false));
         return true;
     }
 }
