@@ -57,7 +57,7 @@ public class ModItems {
     public static final RegistryObject<SwordItem> HELL_IRON_SWORD = ITEMS.register("hell_iron_sword", () ->
             new HellIronSword(ModItemTier.HELL, 2, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
     public static final RegistryObject<SwordItem> ENDER_SWORD = ITEMS.register("ender_sword", () ->
-            new EnderSword(ModItemTier.ENDER, 2, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
+            new SwordItem(ModItemTier.ENDER, 2, -2.4F, new Item.Properties().tab(Swords.SWORDSTAB)));
 
     // Combined Swords
     public static final RegistryObject<SwordItem> VAMPIRIC_SWORD = ITEMS.register("vampiric_sword", () ->
