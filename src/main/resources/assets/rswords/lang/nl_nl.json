@@ -20,7 +20,7 @@
   "block.rswords.crimson_block": "Crimsonblok",
   "block.rswords.cobalt_block": "Cobaltblok",
   "block.rswords.silver_block": "Zilverblok",
-  "block.rswords.bruh_block": "Blok van Gecondenseerd Bruh!",
+  "block.rswords.bruh_block": "Blok van Gecondenseerde Bruh!",
   "block.rswords.hell_iron_block": "HellIjzerblok",
   "block.rswords.ender_block": "Enderblok",
   "block.rswords.black_iron_ore": "Zwartijzer Erts",
@@ -45,10 +45,10 @@
   "item.rswords.infested_sword": "Geinfecteerd Zwaard",
   "item.rswords.hell_bender_sword": "Hell Buiger Zwaard ",
   "item.rswords.holy_sword": "Heilig Zwaard",
-  "itemGroup.ingottab": "Swords Mod | Baaren",
-  "itemGroup.shardtab": "Swords Mod | Sherven",
-  "itemGroup.sticktab": "Swords Mod | Stokken",
-  "itemGroup.swordstab": "Swords Mod | Zwaarden",
-  "itemGroup.blockstab": "Swords Mod | Blokken",
-  "itemGroup.oretab": "Swords Mod | Ertsen"
+  "itemGroup.ingottab": "Zwaarden Mod | Baaren",
+  "itemGroup.shardtab": "Zwaarden Mod | Sherven",
+  "itemGroup.sticktab": "Zwaarden Mod | Stokken",
+  "itemGroup.swordstab": "Zwaarden Mod | Zwaarden",
+  "itemGroup.blockstab": "Zwaarden Mod | Blokken",
+  "itemGroup.oretab": "Zwaarden Mod | Ertsen"
 }
