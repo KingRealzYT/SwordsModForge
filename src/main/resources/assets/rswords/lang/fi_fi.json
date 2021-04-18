@@ -1,0 +1,62 @@
+{
+  "item.rswords.black_iron_shard": "Valurautasirpale",
+  "item.rswords.hell_iron_shard": "Helvetillinen Rautasirpale",
+  "item.rswords.fire_shard": "Tulisirpale",
+  "item.rswords.ender_shard": "Ender-sirpale",
+
+  "item.rswords.black_iron_ingot": "Valurautaharkko",
+  "item.rswords.blood_iron_ingot": "Verirautaharkko",
+  "item.rswords.fire_ingot": "Tuliharkko",
+  "item.rswords.crimson_ingot": "Karmiiniharkko",
+  "item.rswords.cobalt_ingot": "Kobolttiharkko",
+  "item.rswords.silver_ingot": "Hopeaharkko",
+  "item.rswords.bruh_ingot": "Bruh-harkko!",
+  "item.rswords.hell_iron_ingot": "Helvetillinen Rautaharkko",
+  "item.rswords.ender_ingot": "Ender-harkko",
+
+  "item.rswords.iron_stick": "Rautakeppi",
+  "item.rswords.hell_iron_stick": "Helvetillinen Rautakeppi",
+
+  "block.rswords.black_iron_block": "Valurautakuutio",
+  "block.rswords.blood_iron_block": "Verirautakuutio",
+  "block.rswords.fire_block": "Tiivistetty Tulikuutio",
+  "block.rswords.crimson_block": "Karmiinikuutio",
+  "block.rswords.cobalt_block": "Kobalttikuutio",
+  "block.rswords.silver_block": "Hopeakuutio",
+  "block.rswords.bruh_block": "Keskitetty Bruh -kuutio!",
+  "block.rswords.hell_iron_block": "Helvetillinen Rautakuutio",
+  "block.rswords.ender_block": "Ender-kuutio",
+
+  "block.rswords.black_iron_ore": "Valurautamalmi",
+  "block.rswords.blood_iron_ore": "Verirautamalmi",
+  "block.rswords.fire_ore": "Tulimalmi",
+  "block.rswords.crimson_ore": "Karmiinimalmi",
+  "block.rswords.cobalt_ore": "Kobalttimalmi",
+  "block.rswords.silver_ore": "Hopeamalmi",
+  "block.rswords.bruh_ore": "Bruh-malmi!",
+  "block.rswords.hell_iron_ore": "Helvetillinen Rautamalmi",
+  "block.rswords.ender_ore": "Ender-malmi",
+
+  "item.rswords.black_iron_sword": "Valurautamiekka",
+  "item.rswords.blood_iron_sword": "Verirautamiekka",
+  "item.rswords.fire_sword": "Tulimiekka",
+  "item.rswords.crimson_sword": "Karmiinimiekka",
+  "item.rswords.cobalt_sword": "Kobalttimiekka",
+  "item.rswords.silver_sword": "Hopeamiekka",
+  "item.rswords.bruh_sword": "Bruh-miekka!",
+  "item.rswords.hell_iron_sword": "Helvetilline Rautamiekka",
+  "item.rswords.ender_sword": "Ender-miekka",
+
+  "item.rswords.vampiric_sword": "Vamppyyrinen Miekka",
+  "item.rswords.infested_sword": "Saastunut Miekka",
+  "item.rswords.hell_bender_sword": "Helvetin Taivuttajamiekka",
+
+  "item.rswords.holy_sword": "Pyhä Miekka",
+
+  "itemGroup.ingottab": "Miekkamodi | Harkot",
+  "itemGroup.shardtab": "Miekkamodi | Sirpaleet",
+  "itemGroup.sticktab": "Miekkamodi | Kepit",
+  "itemGroup.swordstab": "Miekkamodi | Miekat",
+  "itemGroup.blockstab": "Miekkamodi | Kuutiot",
+  "itemGroup.oretab": "Miekkamodi | Malmit"
+}
