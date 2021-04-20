@@ -2,3 +2,10 @@
 
 # SwordsModForge
 Code for the Forge Version of SwordsMod
+
+# Credits
+
+Language: 
+English (US): [Realz](https://www.github.com/kingrealzyt)
+Finnish: [Adex](https://github.com/adex720)
+Dutch: [Brammie](https://github.com/brammie15)
