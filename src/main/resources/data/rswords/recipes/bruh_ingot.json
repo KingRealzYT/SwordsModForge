@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "rswords:bruh_ore"
   },
-  "result": "minecraft:bruh_ingot",
+  "result": "rswords:bruh_ingot",
   "experience": 1,
   "cookingtime": 200
 }
