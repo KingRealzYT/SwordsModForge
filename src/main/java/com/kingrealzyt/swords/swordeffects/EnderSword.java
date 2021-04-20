@@ -20,7 +20,6 @@ public class EnderSword extends SwordItem {
 
     @Override
     public ActionResult<ItemStack> use(World worldIn, PlayerEntity playerIn, Hand handIn) {
-        ItemStack stack = playerIn.getItemInHand(handIn);
         if (playerIn.inventory.contains(new ItemStack(Items.ENDER_PEARL))) {
             if (!playerIn.getCooldowns().isOnCooldown(this)) {
                 ThrowableEntity enderPearl = new EnderPearlEntity(worldIn, 0, 0, 0);
@@ -29,14 +28,17 @@ public class EnderSword extends SwordItem {
                 playerIn.level.addFreshEntity(enderPearl);
                 enderPearl.setOwner(playerIn);
                 PlayerInventory inv = playerIn.inventory;
-                for (int i = 0; i < inv.getContainerSize(); i++) {
-                    if (inv.getItem(i).getItem().equals(Items.ENDER_PEARL)) {
-                        inv.removeItem(i, 1);
+                if (!playerIn.isCreative()) {
+                    for (int i = 0; i < inv.getContainerSize(); i++) {
+                        if (inv.getItem(i).getItem().equals(Items.ENDER_PEARL)) {
+                            inv.removeItem(i, 1);
+                        }
                     }
                 }
-                return new ActionResult<>(ActionResultType.SUCCESS, stack);
+                playerIn.getCooldowns().addCooldown(this, 60);
+                return ActionResult.success(playerIn.getItemInHand(handIn));
             }
         }
-        return new ActionResult<>(ActionResultType.FAIL, stack);
+        return ActionResult.fail(playerIn.getItemInHand(handIn));
     }
 }
