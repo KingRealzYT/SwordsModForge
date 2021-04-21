@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
@@ -85,20 +85,19 @@ minecraft {
         }
     }
 }
-/*
+
 repositories {
     maven {
         // location of the maven that hosts JEI files
-
-        url = "https://dvs1.progwml6.com/files/maven"
+        name = "Progwml6 maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
     }
     maven {
         // location of a maven mirror for JEI files, as a fallback
-
+        name = "ModMaven"
         url = "https://modmaven.k-4u.nl"
     }
 }
- */
 
 dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed

@@ -1,4 +1,3 @@
-/*
 package com.kingrealzyt.swords.jei;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
@@ -63,4 +62,3 @@ public class rswordsJei implements IModPlugin {
 
     }
 }
- */
