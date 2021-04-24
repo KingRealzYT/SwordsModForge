@@ -14,6 +14,8 @@
   "item.rswords.hell_iron_ingot": "Hell Iron Ingot",
   "item.rswords.ender_ingot": "Ender Ingot",
 
+  "item.rswords.dragon_essence": "Dragon Essence",
+
   "item.rswords.iron_stick": "Iron Stick",
   "item.rswords.hell_iron_stick": "Hell Iron Stick",
 
@@ -55,6 +57,7 @@
 
   "itemGroup.ingottab": "Swords Mod | Ingots",
   "itemGroup.shardtab": "Swords Mod | Shards",
+  "itemGroup.essencetab": "Swords Mod | Essence",
   "itemGroup.sticktab": "Swords Mod | Sticks",
   "itemGroup.swordstab": "Swords Mod | Swords",
   "itemGroup.blockstab": "Swords Mod | Blocks",

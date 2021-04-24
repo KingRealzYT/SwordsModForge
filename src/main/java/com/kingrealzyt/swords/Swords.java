@@ -55,6 +55,13 @@ public class Swords
         }
     };
 
+    public static final ItemGroup ESSENCETAB = new ItemGroup("essencetab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.DRAGON_ESSENCE.get());
+        }
+    };
+
     public static final ItemGroup STICKTAB = new ItemGroup("sticktab") {
         @Override
         public ItemStack makeIcon() {
