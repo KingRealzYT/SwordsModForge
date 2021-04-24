@@ -9,48 +9,48 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    BLACK_IRON(3, 1500, 7.0F, 6.0F, 11, () -> {
+    BLACK_IRON(3, 1500, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.BLACK_IRON_INGOT.get());
     }),
-    BLOOD_IRON(3, 1500, 7.0F, 6.0F, 11, () -> {
+    BLOOD_IRON(3, 1500, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.BLOOD_IRON_INGOT.get());
     }),
-    FIRE(3, 1800, 7.0F, 7.0F, 12, () -> {
+    FIRE(3, 1800, 7.0F, 7, 12, () -> {
         return Ingredient.of(ModItems.FIRE_INGOT.get());
     }),
-    CRIMSON(3, 1600, 7.0F, 6.0F, 11, () -> {
+    CRIMSON(3, 1600, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.CRIMSON_INGOT.get());
     }),
-    COBALT(3, 1600, 7.0F, 6.0F, 11, () -> {
+    COBALT(3, 1600, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.COBALT_INGOT.get());
     }),
-    SILVER(3, 1500, 7.0F, 6.0F, 11, () -> {
+    SILVER(3, 1500, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.SILVER_INGOT.get());
     }),
     BRUH(3, 1800, 7.0F, 6.5F, 12, () -> {
         return Ingredient.of(ModItems.BRUH_INGOT.get());
     }),
-    HELL(3, 1800, 7.0F, 7.0F, 12, () -> {
+    HELL(3, 1800, 7.0F, 7, 12, () -> {
         return Ingredient.of(ModItems.HELL_IRON_INGOT.get());
     }),
 
-    ENDER(3, 2000, 7.0F, 9.0F, 13, () -> {
+    ENDER(3, 2000, 7.0F, 9, 13, () -> {
         return Ingredient.of(ModItems.ENDER_INGOT.get());
     }),
 
-    VAMPRIC(3, 2200, 7.0F, 10.0F, 15, () -> {
+    VAMPRIC(3, 2200, 7.0F, 10, 15, () -> {
         return Ingredient.of(ModItems.VAMPIRIC_SWORD.get());
     }),
 
-    INFESTED(3, 2400, 7.0F, 11.0F, 16, () -> {
+    INFESTED(3, 2400, 7.0F, 11, 16, () -> {
         return Ingredient.of(ModItems.INFESTED_SWORD.get());
     }),
 
-    HELL_BENDER(3, 2600, 7.0F, 12.0F, 17, () -> {
+    HELL_BENDER(3, 2600, 7.0F, 12, 17, () -> {
         return Ingredient.of(ModItems.HELL_BENDER_SWORD.get());
     }),
 
-    HOLY(3, 3000, 7.0F, 13.0F, 18, () -> {
+    HOLY(3, 3000, 7.0F, 13, 18, () -> {
         return Ingredient.of(ModItems.HOLY_SWORD.get());
     });
 
