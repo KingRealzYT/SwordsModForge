@@ -10,3 +10,4 @@ English (US): [Realz](https://www.github.com/kingrealzyt)
 Finnish: [Adex](https://github.com/adex720)
 Dutch: [Brammie](https://github.com/brammie15)
 Danish: Super Teamet Mand 1#3677
+Russian: SuperRuper1209#4796
