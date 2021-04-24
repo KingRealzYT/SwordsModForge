@@ -11,7 +11,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="rswords" #mandatory
 
-version="1.16.4 - 2.0" #mandatory
+version="1.16.3 - 1.16.5 - 2.0" #mandatory
 
 displayName="Swords Mod" #mandatory
 
@@ -21,12 +21,12 @@ displayURL="https://www.youtube.com/kingrealzyt" #optional
 
 logoFile="vampiric_sword.png" #optional
 
-credits="Mod Coded by Realz, Textures by Azzy, G1, Goldrat1, HigherLevel, and Realz" #optional
+credits="Mod Coded by Realz, Textures by Azzy, G1, Goldrat1, HigherLevel, and Realz, Languages by Realz, Adex, Brammie, Affehund, Super Teamet Mand 1" #optional
 
 authors="KingRealzYT" #optional
 
 description='''
-This adds in new Swords, Ingots, Blocks, and Ores!
+Adds in new swords some with special effects and soon to have entities, custom crafting tables, and more!
 '''
 
 

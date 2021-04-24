@@ -7,6 +7,7 @@ import net.minecraft.util.ResourceLocation;
 
 @JeiPlugin
 public class rswordsJei implements IModPlugin {
+
     @Override
     public ResourceLocation getPluginUid() {
         return null;
@@ -61,4 +62,6 @@ public class rswordsJei implements IModPlugin {
     public void onRuntimeAvailable(IJeiRuntime jeiRuntime) {
 
     }
+
 }
+
