@@ -9,8 +9,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModBlocks {
 
-
-
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Swords.MOD_ID);
 
     // Blocks
