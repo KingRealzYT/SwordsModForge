@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "rswords:black_iron_ingotblock"
+      "rswords:hell_iron_ingotblock"
     ]
   },
   "criteria": {
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "rswords:black_iron_block"
+            "item": "rswords:hell_iron_block"
           }
         ]
       }

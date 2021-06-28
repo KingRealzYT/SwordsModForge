@@ -2,7 +2,10 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "rswords:black_iron_ingotblock"
+      "rswords:hell_blender_sword",
+      "rswords:holy_sword",
+      "rswords:infested_sword",
+      "rswords:vampiric_sword"
     ]
   },
   "criteria": {
@@ -11,7 +14,7 @@
       "conditions": {
         "items": [
           {
-            "item": "rswords:black_iron_block"
+            "item": "rswords:iron_stick"
           }
         ]
       }
