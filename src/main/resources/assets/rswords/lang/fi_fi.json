@@ -13,6 +13,8 @@
   "item.rswords.bruh_ingot": "Bruh-harkko!",
   "item.rswords.hell_iron_ingot": "Helvetillinen Rautaharkko",
   "item.rswords.ender_ingot": "Ender-harkko",
+  
+  "item.rswords.dragon_essence": "Lohikäärmeydin",
 
   "item.rswords.iron_stick": "Rautakeppi",
   "item.rswords.hell_iron_stick": "Helvetillinen Rautakeppi",
@@ -55,6 +57,7 @@
 
   "itemGroup.ingottab": "Miekkamodi | Harkot",
   "itemGroup.shardtab": "Miekkamodi | Sirpaleet",
+  "itemGroup.essencetab": "Miekkamodi | Ytimet",
   "itemGroup.sticktab": "Miekkamodi | Kepit",
   "itemGroup.swordstab": "Miekkamodi | Miekat",
   "itemGroup.blockstab": "Miekkamodi | Kuutiot",
