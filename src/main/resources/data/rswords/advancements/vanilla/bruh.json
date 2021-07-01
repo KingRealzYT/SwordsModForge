@@ -13,8 +13,9 @@
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,
-    "parent": "rswords:get_a_sword"
+    "parent": "minecraft:story/iron_tools"
   },
+  "parent": "rswords:",
   "criteria": {
     "have_items": {
       "trigger": "minecraft:inventory_changed",
