@@ -62,4 +62,29 @@
   "itemGroup.swordstab": "Swords Mod | Swords",
   "itemGroup.blockstab": "Swords Mod | Blocks",
   "itemGroup.oretab": "Swords Mod | Ores"
+  
+  "advancement.rswords.get_sword.title": "",
+  "advancement.rswords.get_sword.description": "",
+  "advancement.rswords.get_all_swords.title": "",
+  "advancement.rswords.get_all_swords.description": "",
+
+  "advancement.rswords.get_hell_blender_sword.title": "",
+  "advancement.rswords.get_hell_blender_sword.description": "",
+  "advancement.rswords.get_infested_sword.title": "",
+  "advancement.rswords.get_infested_sword.description": "",
+  "advancement.rswords.get_vampyric_sword.title": "",
+  "advancement.rswords.get_vampyric_sword.description": "",
+
+  "advancement.rswords.get_holy_sword.title": "",
+  "advancement.rswords.get_holy_sword.description": "",
+
+  "advancement.rswords.kill_entity_with_sword.title": "",
+  "advancement.rswords.kill_entity_with_sword.description": "",
+  "advancement.rswords.kill_blaze_with_fire_sword.title": "",
+  "advancement.rswords.kill_blaze_with_fire_sword.description": "",
+
+  "advancement.story.bruh.title": "",
+  "advancement.story.bruh.description": "",
+  "advancement.end.kill_dragon_with_wooden_sword.title": "",
+  "advancement.end.kill_dragon_with_wooden_sword.description": ""
 }
