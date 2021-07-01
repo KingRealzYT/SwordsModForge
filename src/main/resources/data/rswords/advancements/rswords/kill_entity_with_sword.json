@@ -1,0 +1,93 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.kill_blaze_with_fire_sword.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.kill_blaze_with_fire_sword.description"
+    },
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:get_a_sword",
+  "criteria": {
+    "mainhand": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword",
+                "minecraft:stone_sword",
+                "minecraft:iron_sword",
+                "minecraft:golden_sword",
+                "minecraft:diamond_sword",
+                "minecraft:netherite_sword",
+                "rswords:black_iron_sword",
+                "rswords:blood_iron_sword",
+                "rswords:bruh_sword",
+                "rswords:cobalt_sword",
+                "rswords:crimson_sword",
+                "rswords:ender_sword",
+                "rswords:fire_sword",
+                "rswords:hell_blender_sword",
+                "rswords:hell_iron_sword",
+                "rswords:holy_sword",
+                "rswords:infested_sword",
+                "rswords:silver_sword",
+                "rswords:vampiric_sword"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "offhand": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword",
+                "minecraft:stone_sword",
+                "minecraft:iron_sword",
+                "minecraft:golden_sword",
+                "minecraft:diamond_sword",
+                "minecraft:netherite_sword",
+                "rswords:black_iron_sword",
+                "rswords:blood_iron_sword",
+                "rswords:bruh_sword",
+                "rswords:cobalt_sword",
+                "rswords:crimson_sword",
+                "rswords:ender_sword",
+                "rswords:fire_sword",
+                "rswords:hell_blender_sword",
+                "rswords:hell_iron_sword",
+                "rswords:holy_sword",
+                "rswords:infested_sword",
+                "rswords:silver_sword",
+                "rswords:vampiric_sword"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "mainhand"
+    ],
+    [
+      "offhand"
+    ]
+  ]
+}
