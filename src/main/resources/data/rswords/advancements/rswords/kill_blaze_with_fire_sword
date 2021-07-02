@@ -14,50 +14,40 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "rswords:kill_entity_with_sword",
+  "parent": "rswords:get_sword",
   "criteria": {
-    "mainhand": {
+    "killed": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "rswords:fire_sword"
-              ]
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "item": "rswords:fire_sword"
+                }
+              }
             }
           }
-        }
-      },
-      "entity": {
-        "type": "minecraft:blaze"
-      }
-    },
-    "offhand": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "rswords:fire_sword"
-              ]
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:blaze"
             }
           }
-        }
-      },
-      "entity": {
-        "type": "minecraft:blaze"
+        ]
       }
     }
   },
   "rewards": {},
   "requirements": [
     [
-      "mainhand"
-    ],
-    [
-      "offhand"
+      "killed"
     ]
   ]
 }
