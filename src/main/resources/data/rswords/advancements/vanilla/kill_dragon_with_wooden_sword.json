@@ -16,48 +16,38 @@
   },
   "parent": "minecraft:end/respawn_dragon",
   "criteria": {
-    "mainhand": {
+    "killed": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:wooden_sword"
-              ]
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "item": "minecraft:wooden_sword"
+                }
+              }
             }
           }
-        }
-      },
-      "entity": {
-        "type": "minecraft:ender_dragon"
-      }
-    },
-    "offhand": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": [
-                "minecraft:wooden_sword"
-              ]
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
             }
           }
-        }
-      },
-      "entity": {
-        "type": "minecraft:ender_dragon"
+        ]
       }
     }
   },
   "rewards": {},
   "requirements": [
     [
-      "mainhand"
-    ],
-    [
-      "offhand"
+      "killed"
     ]
   ]
 }
