@@ -7,14 +7,14 @@
       "translate": "advancement.rswords.get_holy_sword.description"
     },
     "icon": {
-      "item": "rswords:get_vampiric_sword"
+      "item": "rswords:holy_sword"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false,
-    "parent": "rswords:get_a_sword"
+    "hidden": false
   },
+  "parent": "rswords:get_vampiric_sword",
   "criteria": {
     "holy_sword": {
       "trigger": "minecraft:inventory_changed",
@@ -29,6 +29,8 @@
   },
   "rewards": {},
   "requirements": [
-    "holy_sword"
+    [
+      "holy_sword"
+    ]
   ]
 }
