@@ -7,15 +7,14 @@
       "translate": "advancement.rswords.bruh.description"
     },
     "icon": {
-      "item": "rswords:get_vampiric_sword"
+      "item": "rswords:bruh_ingot"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false,
-    "parent": "minecraft:story/iron_tools"
+    "hidden": false
   },
-  "parent": "rswords:",
+  "parent": "minecraft:story/iron_tools",
   "criteria": {
     "have_items": {
       "trigger": "minecraft:inventory_changed",
