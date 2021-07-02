@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "rswords:cobalt_ingot"
+      "rswords:bruh_ingot"
     ]
   },
   "criteria": {
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "rswords:cobalt_shard"
+            "item": "rswords:bruh_ore"
           }
         ]
       }

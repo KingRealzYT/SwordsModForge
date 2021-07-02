@@ -61,5 +61,32 @@
   "itemGroup.sticktab": "Swords Mod | Sticks",
   "itemGroup.swordstab": "Swords Mod | Swords",
   "itemGroup.blockstab": "Swords Mod | Blocks",
-  "itemGroup.oretab": "Swords Mod | Ores"
+  "itemGroup.oretab": "Swords Mod | Ores",
+  
+  "advancement.rswords.get_sword.title": "Sword",
+  "advancement.rswords.get_sword.description": "Get a sword, it's a good weapon",
+  "advancement.rswords.get_all_swords.title": "Collector of Sharp Weapons",
+  "advancement.rswords.get_all_swords.description": "Have at least one of each sword on your inventory",
+
+  "advancement.rswords.get_hell_bender_sword.title": "Devil's Weapon",
+  "advancement.rswords.get_hell_bender_sword.description": "Craft a hell bender sword",
+  "advancement.rswords.get_infested_sword.title": "Scientist's Weapon",
+  "advancement.rswords.get_infested_sword.description": "Craft an infested sword",
+  "advancement.rswords.get_vampyric_sword.title": "Dracula's Weapon",
+  "advancement.rswords.get_vampyric_sword.description": "Craft a vampyric sword",
+
+  "advancement.rswords.get_holy_sword.title": "Holy Moly",
+  "advancement.rswords.get_holy_sword.description": "Craft a holy sword",
+
+  "advancement.rswords.kill_entity_with_sword.title": "Slayer",
+  "advancement.rswords.kill_entity_with_sword.description": "Kill something with a sword",
+  "advancement.rswords.kill_blaze_with_fire_sword.title": "Fire vs. Fire",
+  "advancement.rswords.kill_blaze_with_fire_sword.description": "Kill a Blaze with fire sword",
+  "advancement.rswords.overkill_bat.title": "Overkill",
+  "advancement.rswords.overkill_bat.description": "Deal at least 40 damage into a bat",
+
+  "advancement.story.bruh.title": "Bruhing Amazing",
+  "advancement.story.bruh.description": "Have 42 bruh ingots",
+  "advancement.end.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
+  "advancement.end.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
 }

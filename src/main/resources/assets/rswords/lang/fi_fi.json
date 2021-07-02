@@ -13,6 +13,8 @@
   "item.rswords.bruh_ingot": "Bruh-harkko!",
   "item.rswords.hell_iron_ingot": "Helvetillinen Rautaharkko",
   "item.rswords.ender_ingot": "Ender-harkko",
+  
+  "item.rswords.dragon_essence": "Lohikäärmeydin",
 
   "item.rswords.iron_stick": "Rautakeppi",
   "item.rswords.hell_iron_stick": "Helvetillinen Rautakeppi",
@@ -47,7 +49,7 @@
   "item.rswords.hell_iron_sword": "Helvetilline Rautamiekka",
   "item.rswords.ender_sword": "Ender-miekka",
 
-  "item.rswords.vampiric_sword": "Vamppyyrinen Miekka",
+  "item.rswords.vampiric_sword": "Vamppyyrien Miekka",
   "item.rswords.infested_sword": "Saastunut Miekka",
   "item.rswords.hell_bender_sword": "Helvetin Taivuttajamiekka",
 
@@ -55,8 +57,36 @@
 
   "itemGroup.ingottab": "Miekkamodi | Harkot",
   "itemGroup.shardtab": "Miekkamodi | Sirpaleet",
+  "itemGroup.essencetab": "Miekkamodi | Ytimet",
   "itemGroup.sticktab": "Miekkamodi | Kepit",
   "itemGroup.swordstab": "Miekkamodi | Miekat",
   "itemGroup.blockstab": "Miekkamodi | Kuutiot",
-  "itemGroup.oretab": "Miekkamodi | Malmit"
+  "itemGroup.oretab": "Miekkamodi | Malmit",
+
+  "advancement.rswords.get_sword.title": "Miekka",
+  "advancement.rswords.get_sword.description": "Hanki miekka, se toimii hyvin aseena",
+  "advancement.rswords.get_all_swords.title": "Terävien Aseiden Keräilijä",
+  "advancement.rswords.get_all_swords.description": "Säility ainakin yksi kappale jokaista miekkaa tavaraluettelossasi",
+
+  "advancement.rswords.get_hell_bender_sword.title": "Paholaisen Ase",
+  "advancement.rswords.get_hell_bender_sword.description": "Rakenna Helvetin Taivuttajamiekka",
+  "advancement.rswords.get_infested_sword.title": "Tutkijan Ase",
+  "advancement.rswords.get_infested_sword.description": "Rakenna Saastunut Miekka",
+  "advancement.rswords.get_vampyric_sword.title": "Draculan Ase",
+  "advancement.rswords.get_vampyric_sword.description": "Rakenna Vamppyyrinen Miekka",
+
+  "advancement.rswords.get_holy_sword.title": "Pyhä Jysäys",
+  "advancement.rswords.get_holy_sword.description": "Rakenna Pyhä Miekka",
+
+  "advancement.rswords.kill_entity_with_sword.title": "Teurastaja",
+  "advancement.rswords.kill_entity_with_sword.description": "Tapa jotakin miekalla",
+  "advancement.rswords.kill_blaze_with_fire_sword.title": "Tuli Vastaan Tuli",
+  "advancement.rswords.kill_blaze_with_fire_sword.description": "Tapa Roihu tulimiekala",
+  "advancement.rswords.overkill_bat.title": "Ylilyönti",
+  "advancement.rswords.overkill_bat.description": "Tee ainakin 40 vahinkoa lepakkoon",
+
+  "advancement.story.bruh.title": "Bruhin Mahtavaa",
+  "advancement.story.bruh.description": "Hanki 42 bruh-harkkoa",
+  "advancement.end.kill_dragon_with_wooden_sword.title": "Heikko Ase, Vahva Lohikäärme",
+  "advancement.end.kill_dragon_with_wooden_sword.description": "Lyö viimeinen osuma Ender-lohikäärmeeseen puumiekalla"
 }
