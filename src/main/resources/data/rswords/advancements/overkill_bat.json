@@ -1,0 +1,52 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancement.rswords.overkill_bat.title"
+    },
+    "description": {
+      "translate": "advancement.rswords.overkill_bat.description"
+    },
+    "icon": {
+      "item": "rswords:ender_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rswords:kill_entity_with_sword",
+  "criteria": {
+    "damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 40
+          },
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "tag": "rswords:swords"
+              }
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:bat"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {},
+  "requirements": [
+    [
+      "damage"
+    ]
+  ]
+}
