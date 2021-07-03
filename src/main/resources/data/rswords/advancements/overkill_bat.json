@@ -7,21 +7,21 @@
       "translate": "advancement.rswords.overkill_bat.description"
     },
     "icon": {
-      "item": "rswords:ender_sword"
+      "item": "rswords:black_iron_sword"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "rswords:kill_entity_with_sword",
+  "parent": "rswords:overkill",
   "criteria": {
-    "damage": {
+    "overkill": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
-          "taken": {
-            "min": 40
+          "dealt": {
+            "min": 50
           },
           "source_entity": {
             "equipment": {
@@ -31,22 +31,18 @@
             }
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:bat"
-            }
-          }
-        ]
+        "entity": {
+          "type": "minecraft:bat"
+        }
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "experience": 80
+  },
   "requirements": [
     [
-      "damage"
+      "overkill"
     ]
   ]
 }
