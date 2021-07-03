@@ -1,10 +1,10 @@
 {
   "display": {
     "title": {
-      "translate": "advancement.rswords.bruh.title"
+      "translate": "minecraft.story.bruh.title"
     },
     "description": {
-      "translate": "advancement.rswords.bruh.description"
+      "translate": "minecraft.story.bruh.description"
     },
     "icon": {
       "item": "rswords:bruh_ingot"
