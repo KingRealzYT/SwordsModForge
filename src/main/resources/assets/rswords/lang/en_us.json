@@ -62,31 +62,45 @@
   "itemGroup.swordstab": "Swords Mod | Swords",
   "itemGroup.blockstab": "Swords Mod | Blocks",
   "itemGroup.oretab": "Swords Mod | Ores",
-  
+
   "advancement.rswords.get_sword.title": "Sword",
   "advancement.rswords.get_sword.description": "Get a sword, it's a good weapon",
   "advancement.rswords.get_all_swords.title": "Collector of Sharp Weapons",
-  "advancement.rswords.get_all_swords.description": "Have at least one of each sword on your inventory",
+  "advancement.rswords.get_all_swords.description": "Obtain least one of each sword",
 
   "advancement.rswords.get_hell_bender_sword.title": "Devil's Weapon",
   "advancement.rswords.get_hell_bender_sword.description": "Craft a hell bender sword",
   "advancement.rswords.get_infested_sword.title": "Scientist's Weapon",
   "advancement.rswords.get_infested_sword.description": "Craft an infested sword",
-  "advancement.rswords.get_vampyric_sword.title": "Dracula's Weapon",
-  "advancement.rswords.get_vampyric_sword.description": "Craft a vampyric sword",
+  "advancement.rswords.get_vampiric_sword.title": "Dracula's Weapon",
+  "advancement.rswords.get_vampiric_sword.description": "Craft a vampyric sword",
 
   "advancement.rswords.get_holy_sword.title": "Holy Moly",
   "advancement.rswords.get_holy_sword.description": "Craft a holy sword",
 
   "advancement.rswords.kill_entity_with_sword.title": "Slayer",
   "advancement.rswords.kill_entity_with_sword.description": "Kill something with a sword",
+
   "advancement.rswords.kill_blaze_with_fire_sword.title": "Fire vs. Fire",
   "advancement.rswords.kill_blaze_with_fire_sword.description": "Kill a Blaze with fire sword",
-  "advancement.rswords.overkill_bat.title": "Overkill",
-  "advancement.rswords.overkill_bat.description": "Deal at least 40 damage into a bat",
+  "advancement.rswords.kill_silverfish_with_silver_sword.title": "Silver vs. Silver",
+  "advancement.rswords.kill_silverfish_with_silver_sword.description": "Kill a Silverfish with silver sword",
 
-  "advancement.story.bruh.title": "Bruhing Amazing",
-  "advancement.story.bruh.description": "Have 42 bruh ingots",
-  "advancement.end.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
-  "advancement.end.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
+  "advancement.rswords.charge_creeper.title": "Electric Sword",
+  "advancement.rswords.charge_creeper.description": "Turn a Creeper into a Charged Creeper by hitting it with a holy sword\nWell, it died anyways",
+
+  "advancement.rswords.overkill.title": "Overkill",
+  "advancement.rswords.overkill.description": "Deal at least 40 damage on one hit with a sword",
+  "advancement.rswords.overkill_bat.title": "That Innocent Bat",
+  "advancement.rswords.overkill_bat.description": "Deal at least 50 damage into a bat with a sword",
+
+  "advancement.rswords.kill_zombie_having_holy_sword.title": "Master Fighter",
+  "advancement.rswords.kill_zombie_having_holy_sword.description": "Give a regular Zombie a Holy sword enchanted with Sharpness V, then win it with a wooden sword",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Even More Master Fighter",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Give a regular Zombie a Holy sword enchanted with Sharpness V, then win it with a wooden shovel",
+
+  "advancement.rswords.bruh.title": "Bruhing Amazing",
+  "advancement.rswords.bruh.description": "Have 42 bruh ingots",
+  "advancement.rswords.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
+  "advancement.rswords.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
 }
