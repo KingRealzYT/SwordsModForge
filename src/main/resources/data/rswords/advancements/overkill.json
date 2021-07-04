@@ -7,7 +7,7 @@
       "translate": "advancement.rswords.overkill.description"
     },
     "icon": {
-      "item": "rswords:ender_sword"
+      "item": "rswords:crimson_sword"
     },
     "frame": "goal",
     "show_toast": true,
@@ -40,4 +40,4 @@
       "damage"
     ]
   ]
-}
+} 
