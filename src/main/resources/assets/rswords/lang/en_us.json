@@ -103,8 +103,8 @@
   "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Even More Master Fighter",
   "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Give a regular Zombie a Holy sword enchanted with Sharpness V, then win it with a wooden shovel",
 
-  "advancement.minecraft.bruh.title": "Bruhing Amazing",
-  "advancement.minecraft.bruh.description": "Have 42 bruh ingots",
-  "advancement.minecraft.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
-  "advancement.minecraft.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
+  "advancement.minecraft.story.bruh.title": "Bruhing Amazing",
+  "advancement.minecraft.story.bruh.description": "Have 42 bruh ingots",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
 }
