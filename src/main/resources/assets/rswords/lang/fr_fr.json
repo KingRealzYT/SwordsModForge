@@ -103,8 +103,8 @@
   "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Encore Plus Maître Combattant",
   "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Donnez un zombie ordinaire une épée sacrée enchantée à tranchant V, ensuit il prévaloissez aven une pelle en bois",
 
-  "advancement.minecraft.bruh.title": "Bruhnant Incroyable",
-  "advancement.minecraft.bruh.description": "Avoir 42 lingots de bruh",
-  "advancement.minecraft.kill_dragon_with_wooden_sword.title": "Arme Faible, Dragon Fort",
-  "advancement.minecraft.kill_dragon_with_wooden_sword.description": "Frapper le dernier coup dans l'Ender Dragon avec une épée en bois"
+  "advancement.minecraft.story.bruh.title": "Bruhnant Incroyable",
+  "advancement.minecraft.story.bruh.description": "Avoir 42 lingots de bruh",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.title": "Arme Faible, Dragon Fort",
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.description": "Frapper le dernier coup dans l'Ender Dragon avec une épée en bois"
 }
