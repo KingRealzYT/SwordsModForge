@@ -85,9 +85,13 @@
   "advancement.rswords.kill_blaze_with_fire_sword.description": "Tapa Roihu tulimiekala",
   "advancement.rswords.kill_silverfish_with_silver_sword.title": "Hopea Vastaan Hopea",
   "advancement.rswords.kill_silverfish_with_silver_sword.description": "Tapa Sokeritoukka hopeamiekalla",
+  "advancement.rswords.kill_enderman_with_ender_sword.title": "Ender Vastaan Ender",
+  "advancement.rswords.kill_enderman_with_ender_sword.description": "Tapa Enderman ender-miekalla",
+  "advancement.rswords.kill_endermite_with_ender_sword.title": "Ender Vastaan Ender II",
+  "advancement.rswords.kill_endermite_with_ender_sword.description": "Tapa Ender-punkki ender-miekalla",
 
   "advancement.rswords.charge_creeper.title": "Sähköistetty Miekka",
-  "advancement.rswords.charge_creeper.description": "Muuta Creeper sähköistetyksi Creeperiksi lyömällä sitä Pyhällä miekalla\nNo, se kuoli samalla",
+  "advancement.rswords.charge_creeper.description": "Muuta Creeper sähköistetyksi Creeperiksi lyömällä sitä Pyhällä miekalla ilman, että se kuolee",
 
   "advancement.rswords.overkill.title": "Ylilyönti",
   "advancement.rswords.overkill.description": "Tee ainakin 50 vahinkoa lepakkoon",
