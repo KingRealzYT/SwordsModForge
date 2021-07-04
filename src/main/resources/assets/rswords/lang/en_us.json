@@ -85,9 +85,13 @@
   "advancement.rswords.kill_blaze_with_fire_sword.description": "Kill a Blaze with fire sword",
   "advancement.rswords.kill_silverfish_with_silver_sword.title": "Silver vs. Silver",
   "advancement.rswords.kill_silverfish_with_silver_sword.description": "Kill a Silverfish with silver sword",
+  "advancement.rswords.kill_enderman_with_ender_sword.title": "Ender vs. Ender",
+  "advancement.rswords.kill_enderman_with_ender_sword.description": "Kill an Enderman with ender sword",
+  "advancement.rswords.kill_endermite_with_ender_sword.title": "Ender vs.Ender II",
+  "advancement.rswords.kill_endermite_with_ender_sword.description": "Kill an Endermite with ender sword",
 
   "advancement.rswords.charge_creeper.title": "Electric Sword",
-  "advancement.rswords.charge_creeper.description": "Turn a Creeper into a Charged Creeper by hitting it with a holy sword\nWell, it died anyways",
+  "advancement.rswords.charge_creeper.description": "Turn a Creeper into a Charged Creeper by hitting it with a holy sword and without killing it",
 
   "advancement.rswords.overkill.title": "Overkill",
   "advancement.rswords.overkill.description": "Deal at least 40 damage on one hit with a sword",
@@ -99,8 +103,8 @@
   "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Even More Master Fighter",
   "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Give a regular Zombie a Holy sword enchanted with Sharpness V, then win it with a wooden shovel",
 
-  "advancement.rswords.bruh.title": "Bruhing Amazing",
-  "advancement.rswords.bruh.description": "Have 42 bruh ingots",
-  "advancement.rswords.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
-  "advancement.rswords.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
+  "advancement.minecraft.bruh.title": "Bruhing Amazing",
+  "advancement.minecraft.bruh.description": "Have 42 bruh ingots",
+  "advancement.minecraft.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
+  "advancement.minecraft.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
 }
