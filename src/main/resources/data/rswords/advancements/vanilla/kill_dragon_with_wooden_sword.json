@@ -1,10 +1,10 @@
 {
   "display": {
     "title": {
-      "translate": "advancement.minecraft.story.kill_dragon_with_wooden_sword.title"
+      "translate": "advancement.minecraft.end.kill_dragon_with_wooden_sword.title"
     },
     "description": {
-      "translate": "advancement.minecraft.story.kill_dragon_with_wooden_sword.description"
+      "translate": "advancement.minecraft.end.kill_dragon_with_wooden_sword.description"
     },
     "icon": {
       "item": "minecraft:wooden_sword"
