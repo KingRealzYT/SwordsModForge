@@ -10,7 +10,7 @@
   "item.rswords.crimson_ingot": "Lingot de Carmin",
   "item.rswords.cobalt_ingot": "Lingot de Cobalt",
   "item.rswords.silver_ingot": "Lingot de l'Argent",
-  "item.rswords.bruh_ingot": "Lingot de Bruh !",
+  "item.rswords.bruh_ingot": "Lingot de Bruh!",
   "item.rswords.hell_iron_ingot": "Lingot de Fer Infernal",
   "item.rswords.ender_ingot": "Lingot de L'Ender",
 
@@ -98,13 +98,13 @@
   "advancement.rswords.overkill_bat.title": "Cette Chauve-Souris Innocente",
   "advancement.rswords.overkill_bat.description": "Infligez au moins vingt-cinq cœurs de dégâts vers une chauve-souris",
 
-  "advancement.rswords.kill_zombie_having_holy_sword.title": "Master Fighter",
-  "advancement.rswords.kill_zombie_having_holy_sword.description": "Give a regular Zombie a Holy sword enchanted with Sharpness V, then win it with a wooden sword",
-  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Even More Master Fighter",
-  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Give a regular Zombie a Holy sword enchanted with Sharpness V, then win it with a wooden shovel",
+  "advancement.rswords.kill_zombie_having_holy_sword.title": "Maître Combattant",
+  "advancement.rswords.kill_zombie_having_holy_sword.description": "Donnez un zombie ordinaire une épée sacrée enchantée à tranchant V, ensuit il prévaloissez aven une épée en bois",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.title": "Encore Plus Maître Combattant",
+  "advancement.rswords.kill_zombie_having_holy_sword_with_wooden_shovel.description": "Donnez un zombie ordinaire une épée sacrée enchantée à tranchant V, ensuit il prévaloissez aven une pelle en bois",
 
-  "advancement.minecraft.bruh.title": "Bruhing Amazing",
-  "advancement.minecraft.bruh.description": "Have 42 bruh ingots",
-  "advancement.minecraft.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
-  "advancement.minecraft.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
+  "advancement.minecraft.bruh.title": "Bruhnant Incroyable",
+  "advancement.minecraft.bruh.description": "Avoir 42 lingots de bruh",
+  "advancement.minecraft.kill_dragon_with_wooden_sword.title": "Arme Faible, Dragon Fort",
+  "advancement.minecraft.kill_dragon_with_wooden_sword.description": "Frapper le dernier coup dans l'Ender Dragon avec une épée en bois"
 }
