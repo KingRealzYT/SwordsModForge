@@ -1,27 +1,27 @@
 {
   "display": {
     "title": {
-      "translate": "advancement.rswords.overkill_bat.title"
+      "translate": "advancement.rswords.overkill.title"
     },
     "description": {
-      "translate": "advancement.rswords.overkill_bat.description"
+      "translate": "advancement.rswords.overkill.description"
     },
     "icon": {
-      "item": "rswords:black_iron_sword"
+      "item": "rswords:crimson_sword"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "rswords:overkill",
+  "parent": "rswords:kill_entity_with_sword",
   "criteria": {
-    "overkill": {
+    "damage": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
-          "dealt": {
-            "min": 50
+          "taken": {
+            "min": 40
           },
           "source_entity": {
             "equipment": {
@@ -30,19 +30,14 @@
               }
             }
           }
-        },
-        "entity": {
-          "type": "minecraft:bat"
         }
       }
     }
   },
-  "rewards": {
-    "experience": 80
-  },
+  "rewards": {},
   "requirements": [
     [
-      "overkill"
+      "damage"
     ]
   ]
-}
+} 
