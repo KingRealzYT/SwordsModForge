@@ -5,7 +5,7 @@
 # Swords Mod (Forge)
 
 Swords Mod is an open source project that anyone can use, reference, and contribute to. With this mod, you can create swords to help fight off mobs and find new blocks and ingots in the process!  
-Swords Mod started development around June 5th and released a 1.12 version on July 3rd. Following the 1.12 version on July 16th 2020, the first 1.16 version was released which got 1,000 downloads and helped Swords Mod become bigger.  
+Swords Mod started development around June 5th 2020 and released a 1.12 version on July 3rd 2020. Following the 1.12 version on July 16th 2020, the first 1.16 version was released which got 1,000 downloads and helped Swords Mod become bigger.  
 Swords Mod only has one developer, but since it is open source, anyone can contribute and help make it better!  
 
 ## Downloads
