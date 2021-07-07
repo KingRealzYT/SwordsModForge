@@ -26,6 +26,7 @@ Swords Mod only has one developer, but since it is open source, anyone can contr
 
 - English (US): [Realz](https://github.com/KingRealzYT)
 - Finnish: [Adex](https://github.com/adex720)
+- French: [Adex](https://github.com/adex720)
 - Dutch: [Brammie](https://github.com/brammie15)
 - Danish: Super Teamet Mand 1#3677
 - Russian: [SuperRuper1209](https://www.curseforge.com/members/superruper1209/projects)
