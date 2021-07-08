@@ -22,6 +22,11 @@ Swords Mod only has one developer, but since it is open source, anyone can contr
 - [HigherLight](https://github.com/HigherLightz)
 - [Adex](https://github.com/adex720)
 
+### Dimension / Dimension Type Generator
+https://misode.github.io/dimension/
+https://misode.github.io/dimension-type/
+
+
 ### Language Translation
 
 - English (US): [Realz](https://github.com/KingRealzYT)
