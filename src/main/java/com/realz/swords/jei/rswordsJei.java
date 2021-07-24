@@ -1,4 +1,5 @@
 package com.realz.swords.jei;
+/*
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.registration.*;
@@ -64,4 +65,5 @@ public class rswordsJei implements IModPlugin {
     }
 
 }
+ */
 
