@@ -1,7 +1,7 @@
 package com.realz.swords.items;
 
 import com.realz.swords.Swords;
-import net.minecraft.item.Item;
+import net.minecraft.world.item.Item;
 
 public class ShardBase extends Item {
 

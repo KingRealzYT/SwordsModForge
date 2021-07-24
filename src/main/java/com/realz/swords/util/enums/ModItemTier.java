@@ -1,12 +1,13 @@
 package com.realz.swords.util.enums;
 
 import com.realz.swords.init.ModItems;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ModItemTier implements IItemTier {
+
+public enum ModItemTier implements Tier {
 
     BLACK_IRON(3, 1500, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.BLACK_IRON_INGOT.get());

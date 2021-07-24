@@ -1,8 +1,8 @@
 package com.realz.swords.blocks;
 
 import com.realz.swords.Swords;
-import net.minecraft.block.Block;
-import net.minecraft.item.BlockItem;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.level.block.Block;
 
 public class OreItemBase extends BlockItem {
 
