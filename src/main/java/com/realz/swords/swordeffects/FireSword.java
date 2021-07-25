@@ -1,13 +1,13 @@
 package com.realz.swords.swordeffects;
 
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
 
 public class FireSword extends SwordItem {
 
-    public FireSword(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
+    public FireSword(Tier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
 
