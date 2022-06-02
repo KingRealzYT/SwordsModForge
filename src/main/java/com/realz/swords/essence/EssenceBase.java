@@ -1,7 +1,7 @@
 package com.realz.swords.essence;
 
 import com.realz.swords.Swords;
-import net.minecraft.item.Item;
+import net.minecraft.world.item.Item;
 
 public class EssenceBase extends Item {
 

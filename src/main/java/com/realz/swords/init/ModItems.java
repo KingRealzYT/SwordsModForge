@@ -9,11 +9,12 @@ import com.realz.swords.items.ShardBase;
 import com.realz.swords.items.StickBase;
 import com.realz.swords.swordeffects.*;
 import com.realz.swords.util.enums.ModItemTier;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
-import net.minecraftforge.fml.RegistryObject;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 
