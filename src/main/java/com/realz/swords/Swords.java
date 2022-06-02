@@ -3,8 +3,8 @@ package com.realz.swords;
 import com.realz.swords.init.ModBlocks;
 import com.realz.swords.init.ModItems;
 import com.realz.swords.world.gen.ModOreGen;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.DeferredWorkQueue;
@@ -34,55 +34,56 @@ public class Swords
     }
 
     private void setup(final FMLCommonSetupEvent event) {
+        DeferredWorkQueue.runLater(() -> { });
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
 
     // Creative Tabs
 
-    public static final CreativeModeTab INGOTTAB = new CreativeModeTab("ingottab") {
+    public static final ItemGroup INGOTTAB = new ItemGroup("ingottab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_INGOT.get());
         }
     };
 
-    public static final CreativeModeTab SHARDTAB = new CreativeModeTab("shardtab") {
+    public static final ItemGroup SHARDTAB = new ItemGroup("shardtab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_SHARD.get());
         }
     };
 
-    public static final CreativeModeTab ESSENCETAB = new CreativeModeTab("essencetab") {
+    public static final ItemGroup ESSENCETAB = new ItemGroup("essencetab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.DRAGON_ESSENCE.get());
         }
     };
 
-    public static final CreativeModeTab STICKTAB = new CreativeModeTab("sticktab") {
+    public static final ItemGroup STICKTAB = new ItemGroup("sticktab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.HELL_IRON_STICK.get());
         }
     };
 
-    public static final CreativeModeTab SWORDSTAB = new CreativeModeTab("swordstab") {
+    public static final ItemGroup SWORDSTAB = new ItemGroup("swordstab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.VAMPIRIC_SWORD.get());
         }
     };
 
-    public static final CreativeModeTab BLOCKSTAB = new CreativeModeTab("blockstab") {
+    public static final ItemGroup BLOCKSTAB = new ItemGroup("blockstab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_BLOCK_ITEM.get());
         }
     };
 
-    public static final CreativeModeTab ORETAB = new CreativeModeTab("oretab") {
+    public static final ItemGroup ORETAB = new ItemGroup("oretab") {
         @Override
         public ItemStack makeIcon() {
             return new ItemStack(ModItems.BLACK_IRON_ORE_ITEM.get());

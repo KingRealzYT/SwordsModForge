@@ -1,15 +1,16 @@
 package com.realz.swords.entities;
 
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.level.dimension.end.EndDragonFight;
+import com.realz.swords.init.ModBlocks;
+import net.minecraft.entity.boss.dragon.EnderDragonEntity;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.world.World;
+import net.minecraft.world.end.DragonFightManager;
+import net.minecraft.world.gen.Heightmap;
+import net.minecraft.world.gen.feature.EndPodiumFeature;
+import net.minecraft.world.server.ServerWorld;
 
-public class DragonDrops extends EndDragonFight {
-    public DragonDrops(ServerLevel p_64078_, long p_64079_, CompoundTag p_64080_) {
-        super(p_64078_, p_64079_, p_64080_);
-    }
-    /*
-    public DragonDrops(Level p_i231901_1_, long p_i231901_2_, CompoundNBT p_i231901_4_, ServerWorld level, World level1) {
+public class DragonDrops extends DragonFightManager {
+    public DragonDrops(ServerWorld p_i231901_1_, long p_i231901_2_, CompoundNBT p_i231901_4_, ServerWorld level, World level1) {
         super(p_i231901_1_, p_i231901_2_, p_i231901_4_);
         this.level = level;
     }
@@ -20,5 +21,4 @@ public class DragonDrops extends EndDragonFight {
     public void setDragonKilled(EnderDragonEntity enderDragon) {
         this.level.setBlockAndUpdate(this.level.getHeightmapPos(Heightmap.Type.MOTION_BLOCKING, EndPodiumFeature.END_PODIUM_LOCATION), ModBlocks.BLACK_IRON_BLOCK.get().defaultBlockState());
     }
-     */
 }
