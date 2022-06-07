@@ -11,13 +11,13 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="rswords" #mandatory
 
-version="1.16.3 - 1.16.5 - 2.0" #mandatory
+version="1.18.2 - 2.1" #mandatory
 
 displayName="Swords Mod" #mandatory
 
 updateJSONURL="http://myurl.me/" #optional
 
-displayURL="https://www.youtube.com/kingrealzyt" #optional
+displayURL="https://realz.dev" #optional
 
 logoFile="vampiric_sword.png" #optional
 

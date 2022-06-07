@@ -1,12 +1,12 @@
 package dev.realz.swords.util.enums;
 
 import dev.realz.swords.init.ModItems;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ModItemTier implements IItemTier {
+public enum ModItemTier implements Tier {
 
     BLACK_IRON(3, 1500, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.BLACK_IRON_INGOT.get());
@@ -39,19 +39,19 @@ public enum ModItemTier implements IItemTier {
 
     VAMPRIC(3, 2200, 7.0F, 10, 15, () -> {
         return Ingredient.of(ModItems.VAMPIRIC_SWORD.get());
-    }),
-
-    INFESTED(3, 2400, 7.0F, 11, 16, () -> {
-        return Ingredient.of(ModItems.INFESTED_SWORD.get());
-    }),
-
-    HELL_BENDER(3, 2600, 7.0F, 12, 17, () -> {
-        return Ingredient.of(ModItems.HELL_BENDER_SWORD.get());
-    }),
-
-    HOLY(3, 3000, 7.0F, 13, 18, () -> {
-        return Ingredient.of(ModItems.HOLY_SWORD.get());
     });
+
+    /*INFESTED(3, 2400, 7.0F, 11, 16, () -> {
+        return Ingredient.of(ModItems.INFESTED_SWORD.get());
+    }),*/
+
+    /*HELL_BENDER(3, 2600, 7.0F, 12, 17, () -> {
+        return Ingredient.of(ModItems.HELL_BENDER_SWORD.get());
+    }),*/
+
+    /*HOLY(3, 3000, 7.0F, 13, 18, () -> {
+        return Ingredient.of(ModItems.HOLY_SWORD.get());
+    });*/
 
 
     private final int harvestLevel;

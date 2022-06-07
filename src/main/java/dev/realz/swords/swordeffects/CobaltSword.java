@@ -1,24 +1,24 @@
 package dev.realz.swords.swordeffects;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.LightningBoltEntity;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.SwordItem;
-import net.minecraft.util.ActionResult;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LightningBolt;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
 
 public class CobaltSword extends SwordItem {
 
-    public CobaltSword(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
+    public CobaltSword(Tier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
+    /*
 
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
         if (!Minecraft.getInstance().player.getCooldowns().isOnCooldown(this)) {
-            LightningBoltEntity lightning = EntityType.LIGHTNING_BOLT.create(player.level);
+            LightningBolt lightning = EntityType.LIGHTNING_BOLT.create(player.level);
             lightning.setPos(entity.getX(), entity.getY(), entity.getZ());
             player.level.addFreshEntity(lightning);
             assert Minecraft.getInstance().player != null;
@@ -29,4 +29,5 @@ public class CobaltSword extends SwordItem {
         ActionResult.fail(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
         return true;
     }
+     */
 }
