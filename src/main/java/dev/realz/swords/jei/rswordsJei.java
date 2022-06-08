@@ -1,7 +1,11 @@
 package dev.realz.swords.jei;
 
-public class rswordsJei  {
-    /*
+import mezz.jei.api.IModPlugin;
+import mezz.jei.api.registration.*;
+import mezz.jei.api.runtime.IJeiRuntime;
+import net.minecraft.resources.ResourceLocation;
+
+public class rswordsJei implements IModPlugin {
 
     @Override
     public ResourceLocation getPluginUid() {
@@ -57,8 +61,6 @@ public class rswordsJei  {
     public void onRuntimeAvailable(IJeiRuntime jeiRuntime) {
 
     }
-
-     */
 
 }
 

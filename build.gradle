@@ -89,7 +89,6 @@ minecraft {
     }
 }
 
-/*
 repositories {
     maven {
         // location of the maven that hosts JEI files
@@ -102,7 +101,6 @@ repositories {
         url = "https://modmaven.k-4u.nl"
     }
 }
-*/
 
 dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
@@ -128,12 +126,12 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    /*
+
     ///Compiling The JEI API Only
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
     /// at runtime, use the full JEI jar
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
-    */
+
 
 
 
