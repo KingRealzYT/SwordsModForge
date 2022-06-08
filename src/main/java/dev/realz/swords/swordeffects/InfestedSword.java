@@ -1,6 +1,7 @@
 package dev.realz.swords.swordeffects;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
@@ -15,7 +16,6 @@ public class InfestedSword extends SwordItem {
     public InfestedSword(Tier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
-    /*
 
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
@@ -27,12 +27,11 @@ public class InfestedSword extends SwordItem {
             player.level.addFreshEntity(lightning);
             assert Minecraft.getInstance().player != null;
             Minecraft.getInstance().player.getCooldowns().addCooldown(this, 200);
-            ActionResult.success(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
+            InteractionResultHolder.success(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
             return true;
         }
-        ActionResult.fail(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
+        InteractionResultHolder.fail(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
         return true;
     }
 
-     */
 }

@@ -39,19 +39,19 @@ public enum ModItemTier implements Tier {
 
     VAMPRIC(3, 2200, 7.0F, 10, 15, () -> {
         return Ingredient.of(ModItems.VAMPIRIC_SWORD.get());
-    });
+    }),
 
-    /*INFESTED(3, 2400, 7.0F, 11, 16, () -> {
+    INFESTED(3, 2400, 7.0F, 11, 16, () -> {
         return Ingredient.of(ModItems.INFESTED_SWORD.get());
-    }),*/
+    }),
 
-    /*HELL_BENDER(3, 2600, 7.0F, 12, 17, () -> {
+    HELL_BENDER(3, 2600, 7.0F, 12, 17, () -> {
         return Ingredient.of(ModItems.HELL_BENDER_SWORD.get());
-    }),*/
+    }),
 
-    /*HOLY(3, 3000, 7.0F, 13, 18, () -> {
+    HOLY(3, 3000, 7.0F, 13, 18, () -> {
         return Ingredient.of(ModItems.HOLY_SWORD.get());
-    });*/
+    });
 
 
     private final int harvestLevel;
