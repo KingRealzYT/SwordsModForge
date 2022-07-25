@@ -1,4 +1,4 @@
-[![Swords Mod CurseForge Downloads](http://cf.way2muchnoise.eu/full_swords-mod_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod) [![SwordsMod Supported Minecraft Versions](http://cf.way2muchnoise.eu/versions/For%20MC_swords-mod_all.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod/files/all)
+[![](https://cf.way2muchnoise.eu/full_swords-mod_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod) [![](https://cf.way2muchnoise.eu/packs/swords-mod.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod) [![](https://cf.way2muchnoise.eu/versions/swords-mod.svg)](https://www.curseforge.com/minecraft/mc-mods/swords-mod)
 
 # Looking for the Fabric version's GitHub? Find it [here](https://github.com/KingRealzYT/SwordsModFabric). 
 
