@@ -23,8 +23,8 @@ Swords Mod only has one developer, but since it is open source, anyone can contr
 - [Adex](https://github.com/adex720)
 
 ### Dimension / Dimension Type Generator
-- https://misode.github.io/dimension/
-- https://misode.github.io/dimension-type/
+- [Dimension](https://misode.github.io/dimension/)
+- [Dimension Type](https://misode.github.io/dimension-type/)
 
 
 ### Language Translation
