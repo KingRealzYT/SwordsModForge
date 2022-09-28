@@ -8,6 +8,10 @@ Swords Mod is an open source project that anyone can use, reference, and contrib
 Swords Mod started development around June 5th 2020 and released a 1.12 version on July 3rd 2020. Following the 1.12 version on July 16th 2020, the first 1.16 version was released which got 1,000 downloads and helped Swords Mod become bigger.  
 Swords Mod only has one developer, but since it is open source, anyone can contribute and help make it better!  
 
+## Trello
+[SwordsModFabric Trello](https://trello.com/b/4iUGVKS0/swordsmodfabric)
+[SwordsModForge Trello](https://trello.com/b/sE6DcGmR/swordsmodforge)
+
 ## Downloads
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/swords-mod/files)
