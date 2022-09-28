@@ -9,8 +9,8 @@ Swords Mod started development around June 5th 2020 and released a 1.12 version 
 Swords Mod only has one developer, but since it is open source, anyone can contribute and help make it better!  
 
 ## Trello
-[SwordsModFabric Trello](https://trello.com/b/4iUGVKS0/swordsmodfabric)
-[SwordsModForge Trello](https://trello.com/b/sE6DcGmR/swordsmodforge)
+- [SwordsModForge Trello](https://trello.com/b/sE6DcGmR/swordsmodforge)
+- [SwordsModFabric Trello](https://trello.com/b/4iUGVKS0/swordsmodfabric)
 
 ## Downloads
 
