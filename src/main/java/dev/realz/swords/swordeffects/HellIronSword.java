@@ -9,8 +9,4 @@ public class HellIronSword extends SwordItem {
     public HellIronSword(Tier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
-
-    public boolean hasEffect(ItemStack itemstack) {
-        return true;
-    }
 }

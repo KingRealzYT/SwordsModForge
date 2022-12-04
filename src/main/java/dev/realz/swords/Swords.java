@@ -2,7 +2,6 @@ package dev.realz.swords;
 
 import dev.realz.swords.init.ModBlocks;
 import dev.realz.swords.init.ModItems;
-import dev.realz.swords.world.gen.ModOreGen;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -12,7 +11,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 
 @Mod("rswords")
 public class Swords
@@ -28,11 +26,9 @@ public class Swords
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         MinecraftForge.EVENT_BUS.register(this);
-        MinecraftForge.EVENT_BUS.addListener(ModOreGen::onBiomeLoadingEvent);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        event.enqueueWork(ModOreGen::registerOreFeatures);
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }

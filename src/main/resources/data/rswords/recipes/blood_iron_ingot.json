@@ -1,9 +1,21 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "rswords:blood_iron_ore"
-  },
-  "result": "rswords:blood_iron_ingot",
-  "experience": 1,
-  "cookingtime": 200
-}
+ {
+     "type": "minecraft:crafting_shapeless",
+     "ingredients": [
+         {
+             "item": "rswords:blood_iron_shard"
+         },
+         {
+             "item": "rswords:blood_iron_shard"
+         },
+         {
+             "item": "rswords:blood_iron_shard"
+         },
+         {
+             "item": "rswords:blood_iron_shard"
+         }
+     ],
+     "result": {
+         "item": "rswords:blood_iron_ingot",
+         "count": 1
+     }
+ }

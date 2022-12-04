@@ -1,7 +1,12 @@
 {
   "item.rswords.black_iron_shard": "Black Iron Shard",
-  "item.rswords.hell_iron_shard": "Hell Iron Shard",
+  "item.rswords.blood_iron_shard": "Blood Iron Shard",
   "item.rswords.fire_shard": "Fire Shard",
+  "item.rswords.crimson_shard": "Crimson Shard",
+  "item.rswords.cobalt_shard": "Cobalt Shard",
+  "item.rswords.silver_shard": "Silver Shard",
+  "item.rswords.bruh_shard": "Bruh Shard",
+  "item.rswords.hell_iron_shard": "Hell Iron Shard",
   "item.rswords.ender_shard": "Ender Shard",
 
   "item.rswords.black_iron_ingot": "Black Iron Ingot",
@@ -55,14 +60,8 @@
 
   "item.rswords.holy_sword": "Holy Sword",
 
-  "itemGroup.ingottab": "Swords Mod | Ingots",
-  "itemGroup.shardtab": "Swords Mod | Shards",
-  "itemGroup.essencetab": "Swords Mod | Essence",
-  "itemGroup.sticktab": "Swords Mod | Sticks",
-  "itemGroup.swordstab": "Swords Mod | Swords",
-  "itemGroup.blockstab": "Swords Mod | Blocks",
-  "itemGroup.oretab": "Swords Mod | Ores",
-
+  "advancements.rswords.root.title": "RSwords Advancements Tab Unlocked",
+  "advancements.rswords.root.description": "Thank you for downloading the RSwords mod!",
   "advancement.rswords.get_sword.title": "Sword",
   "advancement.rswords.get_sword.description": "Get a sword, it's a good weapon",
   "advancement.rswords.get_all_swords.title": "Collector of Sharp Weapons",
@@ -73,7 +72,7 @@
   "advancement.rswords.get_infested_sword.title": "Scientist's Weapon",
   "advancement.rswords.get_infested_sword.description": "Craft an infested sword",
   "advancement.rswords.get_vampiric_sword.title": "Dracula's Weapon",
-  "advancement.rswords.get_vampiric_sword.description": "Craft a vampyric sword",
+  "advancement.rswords.get_vampiric_sword.description": "Craft a vampiric sword",
 
   "advancement.rswords.get_holy_sword.title": "Holy Moly",
   "advancement.rswords.get_holy_sword.description": "Craft a holy sword",
@@ -106,5 +105,16 @@
   "advancement.minecraft.story.bruh.title": "Bruhing Amazing",
   "advancement.minecraft.story.bruh.description": "Have 42 bruh ingots",
   "advancement.minecraft.end.kill_dragon_with_wooden_sword.title": "Weak Weapon, Strong Dragon",
-  "advancement.minecraft.end.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword"
+  "advancement.minecraft.end.kill_dragon_with_wooden_sword.description": "Land the last hit on the Ender Dragon with a wooden sword",
+
+  "key.rswords.abilities": "Abilities GUI",
+  "category.rswords.swordsmod": "SwordsMod Keybinds",
+
+  "itemGroup.ingottab": "Swords Mod | Ingots",
+  "itemGroup.shardtab": "Swords Mod | Shards",
+  "itemGroup.essencetab": "Swords Mod | Essences",
+  "itemGroup.sticktab": "Swords Mod | Sticks",
+  "itemGroup.swordstab": "Swords Mod | Swords",
+  "itemGroup.blockstab": "Swords Mod | Blocks",
+  "itemGroup.oretab": "Swords Mod | Ores"
 }

@@ -18,7 +18,7 @@ public class EnderSword extends SwordItem {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level worldIn, Player playerIn, InteractionHand handIn) {
-        if (playerIn.getInventory().contains(new ItemStack(Items.ENDER_PEARL))) {
+        if (playerIn.getInventory().findSlotMatchingItem(new ItemStack(Items.ENDER_PEARL)) != -1) {
             if (!playerIn.getCooldowns().isOnCooldown(this)) {
                 ThrownEnderpearl enderPearl = new ThrownEnderpearl(worldIn, playerIn);
                 enderPearl.setPos(playerIn.getX(), playerIn.getEyeY(), playerIn.getZ());

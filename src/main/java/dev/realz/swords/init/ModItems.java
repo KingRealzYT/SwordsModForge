@@ -32,7 +32,12 @@ public class ModItems {
 
     // Shards
     public static final RegistryObject<Item> BLACK_IRON_SHARD = ITEMS.register("black_iron_shard", ShardBase::new);
+    public static final RegistryObject<Item> BLOOD_IRON_SHARD = ITEMS.register("blood_iron_shard", ShardBase::new);
     public static final RegistryObject<Item> FIRE_SHARD = ITEMS.register("fire_shard", ShardBase::new);
+    public static final RegistryObject<Item> CRIMSON_SHARD = ITEMS.register("crimson_shard", ShardBase::new);
+    public static final RegistryObject<Item> COBALT_SHARD = ITEMS.register("cobalt_shard", ShardBase::new);
+    public static final RegistryObject<Item> SILVER_SHARD = ITEMS.register("silver_shard", ShardBase::new);
+    public static final RegistryObject<Item> BRUH_SHARD = ITEMS.register("bruh_shard", ShardBase::new);
     public static final RegistryObject<Item> HELL_IRON_SHARD = ITEMS.register("hell_iron_shard", ShardBase::new);
     public static final RegistryObject<Item> ENDER_SHARD = ITEMS.register("ender_shard", ShardBase::new);
 
