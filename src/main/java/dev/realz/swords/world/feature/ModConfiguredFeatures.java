@@ -41,29 +41,29 @@ public class ModConfiguredFeatures {
             OreConfiguration.target(new BlockMatchTest(Blocks.END_STONE), ModBlocks.ENDER_ORE.get().defaultBlockState()));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> BLACK_IRON_ORE = FeatureUtils.register("black_iron_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_BLACK_IRON_ORE, 64));
+            Feature.ORE, new OreConfiguration(OVERWORLD_BLACK_IRON_ORE, 3));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> BLOOD_IRON_ORE = FeatureUtils.register("blood_iron_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_BLOOD_IRON_ORE, 64));
+            Feature.ORE, new OreConfiguration(OVERWORLD_BLOOD_IRON_ORE, 4));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> FIRE_ORE = FeatureUtils.register("fire_ore",
-            Feature.ORE, new OreConfiguration(NETHER_FIRE_ORE, 64));
+            Feature.ORE, new OreConfiguration(NETHER_FIRE_ORE, 2));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> CRIMSON_ORE = FeatureUtils.register("crimson_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_CRIMSON_ORE, 64));
+            Feature.ORE, new OreConfiguration(OVERWORLD_CRIMSON_ORE, 5));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> COBALT_ORE = FeatureUtils.register("cobalt_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORE, 64));
+            Feature.ORE, new OreConfiguration(OVERWORLD_COBALT_ORE, 7));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> SILVER_ORE = FeatureUtils.register("silver_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORE, 64));
+            Feature.ORE, new OreConfiguration(OVERWORLD_SILVER_ORE, 5));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> BRUH_ORE = FeatureUtils.register("bruh_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_BRUH_ORE, 64));
+            Feature.ORE, new OreConfiguration(OVERWORLD_BRUH_ORE, 6));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> HELL_IRON_ORE = FeatureUtils.register("hell_iron_ore",
-            Feature.ORE, new OreConfiguration(NETHER_HELL_IRON_ORE, 64));
+            Feature.ORE, new OreConfiguration(NETHER_HELL_IRON_ORE, 2));
 
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> ENDER_ORE = FeatureUtils.register("ender_ore",
-            Feature.ORE, new OreConfiguration(END_ENDER_ORE, 64));
+            Feature.ORE, new OreConfiguration(END_ENDER_ORE, 2));
 }
