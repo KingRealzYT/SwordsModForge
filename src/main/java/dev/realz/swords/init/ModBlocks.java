@@ -2,11 +2,10 @@ package dev.realz.swords.init;
 
 import dev.realz.swords.Swords;
 import dev.realz.swords.blocks.*;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.block.Block;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
-
 public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Swords.MOD_ID);

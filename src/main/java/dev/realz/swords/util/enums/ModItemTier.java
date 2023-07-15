@@ -1,12 +1,12 @@
 package dev.realz.swords.util.enums;
 
 import dev.realz.swords.init.ModItems;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ModItemTier implements Tier {
+public enum ModItemTier implements IItemTier {
 
     BLACK_IRON(3, 1500, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.BLACK_IRON_INGOT.get());
@@ -72,31 +72,31 @@ public enum ModItemTier implements Tier {
 
     @Override
     public int getUses() {
-        return 0;
+        return maxUses;
     }
 
     @Override
     public float getSpeed() {
-        return 0;
+        return efficiency;
     }
 
     @Override
     public float getAttackDamageBonus() {
-        return 0;
+        return attackDamage;
     }
 
     @Override
     public int getLevel() {
-        return 0;
+        return harvestLevel;
     }
 
     @Override
     public int getEnchantmentValue() {
-        return 0;
+        return enchantability;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return repairMaterial.get();
     }
 }

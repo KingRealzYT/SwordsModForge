@@ -3,7 +3,7 @@ package dev.realz.swords.jei;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.registration.*;
 import mezz.jei.api.runtime.IJeiRuntime;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.ResourceLocation;
 
 public class rswordsJei implements IModPlugin {
 

@@ -1,8 +1,8 @@
 package dev.realz.swords.blocks;
 
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 
 public class BruhOre extends Block {
 

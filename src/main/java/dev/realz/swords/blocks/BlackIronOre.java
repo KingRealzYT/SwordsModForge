@@ -1,10 +1,10 @@
 package dev.realz.swords.blocks;
 
-import net.minecraft.world.level.block.OreBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 
-public class BlackIronOre extends OreBlock {
+public class BlackIronOre extends Block {
 
     public BlackIronOre() {
         super(Properties.of(Material.METAL)

@@ -1,12 +1,11 @@
 package dev.realz.swords.swordeffects;
 
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tier;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.SwordItem;
 
 public class HellIronSword extends SwordItem {
 
-    public HellIronSword(Tier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
+    public HellIronSword(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
 }
