@@ -96,7 +96,7 @@ public class ModCreativeTabs {
     }
 
     public static <T extends Item> RegistryObject<T> addToShardTab(RegistryObject<T> itemLike) {
-        BLOCKSTAB_ITEM.add(itemLike);
+        SHARDTAB_ITEMS.add(itemLike);
         return itemLike;
     }
 

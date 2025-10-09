@@ -3,8 +3,6 @@ package dev.realz.swords;
 import dev.realz.swords.init.ModBlocks;
 import dev.realz.swords.init.ModCreativeTabs;
 import dev.realz.swords.init.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.fml.common.Mod;
