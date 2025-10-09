@@ -2,8 +2,6 @@ package dev.realz.swords;
 
 import dev.realz.swords.init.ModBlocks;
 import dev.realz.swords.init.ModItems;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
