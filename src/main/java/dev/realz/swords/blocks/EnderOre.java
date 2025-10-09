@@ -1,14 +1,13 @@
 package dev.realz.swords.blocks;
 
 
-import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
 
 public class EnderOre extends Block {
 
     public EnderOre() {
-        super(Properties.of(Material.METAL)
+        super(Properties.of()
                 .strength(5.0F, 6.0F)
                 .sound(SoundType.METAL)
                 .requiresCorrectToolForDrops());

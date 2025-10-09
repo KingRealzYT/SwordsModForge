@@ -1,11 +1,11 @@
 package dev.realz.swords.swordeffects;
 
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.SwordItem;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
 
 public class BruhSword extends SwordItem {
 
-    public BruhSword(IItemTier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
+    public BruhSword(Tier tier, int attackDamageIn, float attackSpeedIn, Properties builderIn) {
         super(tier, attackDamageIn, attackSpeedIn, builderIn);
     }
 }
