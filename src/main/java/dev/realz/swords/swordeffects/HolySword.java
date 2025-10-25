@@ -23,17 +23,16 @@ public class HolySword extends SwordItem {
 
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
+        Player player2 = (Player) player;
         entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 1, false, false));
         entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 100, 1, false, false));
         entity.setSecondsOnFire(2);
         entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 1, false, false));
-        if (!Minecraft.getInstance().player.getCooldowns().isOnCooldown(this)) {
+        if (!player2.getCooldowns().isOnCooldown(this)) {
             LightningBolt lightning = EntityType.LIGHTNING_BOLT.create(player.level());
             lightning.setPos(entity.getX(), entity.getY(), entity.getZ());
             player.level().addFreshEntity(lightning);
-            assert Minecraft.getInstance().player != null;
-            Minecraft.getInstance().player.getCooldowns().addCooldown(this, 400);
-            InteractionResultHolder.success(Minecraft.getInstance().player.getItemInHand(player.getUsedItemHand()));
+            player2.getCooldowns().addCooldown(this, 400);
             return true;
         }
         return true;

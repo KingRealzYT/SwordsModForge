@@ -56,20 +56,20 @@ public class ModConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> endEnderOre = List.of(OreConfiguration.target(stoneReplaceable,
                 ModBlocks.ENDER_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_BLACK_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBlackIronOre, 5));
-        register(context, OVERWORLD_BLOOD_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBloodIronOre, 5));
-        register(context, OVERWORLD_CRIMSON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCrimsonOre, 5));
-        register(context, OVERWORLD_COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCobaltOre, 5));
-        register(context, OVERWORLD_BRUH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBruhOre, 5));
-        register(context, OVERWORLD_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSilverOre, 5));
+        register(context, OVERWORLD_BLACK_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBlackIronOre, 3));
+        register(context, OVERWORLD_BLOOD_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBloodIronOre, 3));
+        register(context, OVERWORLD_CRIMSON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCrimsonOre, 3));
+        register(context, OVERWORLD_COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCobaltOre, 2));
+        register(context, OVERWORLD_BRUH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBruhOre, 3));
+        register(context, OVERWORLD_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSilverOre, 3));
 
         register(context, NETHER_FIRE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
-                ModBlocks.FIRE_ORE.get().defaultBlockState(), 5));
+                ModBlocks.FIRE_ORE.get().defaultBlockState(), 2));
         register(context, NETHER_HELL_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
-                ModBlocks.HELL_IRON_ORE.get().defaultBlockState(), 5));
+                ModBlocks.HELL_IRON_ORE.get().defaultBlockState(), 4));
 
         register(context, END_ENDER_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
-                ModBlocks.ENDER_ORE.get().defaultBlockState(), 5));
+                ModBlocks.ENDER_ORE.get().defaultBlockState(), 2));
     }
 
 

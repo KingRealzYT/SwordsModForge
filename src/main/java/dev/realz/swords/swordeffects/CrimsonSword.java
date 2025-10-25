@@ -3,6 +3,7 @@ package dev.realz.swords.swordeffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
@@ -15,7 +16,12 @@ public class CrimsonSword extends SwordItem {
 
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity entity, LivingEntity player) {
-        entity.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 2, false, false));
+        Player player2 = (Player) player;
+        if (!player2.getCooldowns().isOnCooldown(this)) {
+            entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 100, 3, false, false));
+            player2.getCooldowns().addCooldown(this, 400);
+            return true;
+        }
         return true;
     }
 }
