@@ -1,6 +1,8 @@
 package dev.realz.swords.data;
 
 import dev.realz.swords.Swords;
+import dev.realz.swords.data.tags.ModBlockTagGenerator;
+import dev.realz.swords.data.tags.ModItemTagGenerator;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -22,6 +24,11 @@ public class DataGenerators {
 
         gen.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
         gen.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
+
+        ModBlockTagGenerator blockTagGenerator = gen.addProvider(event.includeServer(),
+                new ModBlockTagGenerator(packOutput, lookupProvider, existingFileHelper));
+        gen.addProvider(event.includeServer(), new ModItemTagGenerator(packOutput, lookupProvider, blockTagGenerator.contentsGetter(),existingFileHelper));
+
 
         gen.addProvider(event.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
     }
