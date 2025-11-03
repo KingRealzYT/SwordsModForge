@@ -41,7 +41,7 @@ public class ModConfiguredFeatures {
                 ModBlocks.BLACK_IRON_ORE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworldBloodIronOre = List.of(OreConfiguration.target(stoneReplaceable,
                 ModBlocks.BLOOD_IRON_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> netherFireOre = List.of(OreConfiguration.target(stoneReplaceable,
+        List<OreConfiguration.TargetBlockState> netherFireOre = List.of(OreConfiguration.target(netherrackReplacables,
                 ModBlocks.FIRE_ORE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworldCrimsonOre = List.of(OreConfiguration.target(stoneReplaceable,
                 ModBlocks.CRIMSON_ORE.get().defaultBlockState()));
@@ -49,27 +49,24 @@ public class ModConfiguredFeatures {
                 ModBlocks.COBALT_ORE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworldBruhOre = List.of(OreConfiguration.target(stoneReplaceable,
                 ModBlocks.BRUH_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> netherHellIronOre = List.of(OreConfiguration.target(stoneReplaceable,
+        List<OreConfiguration.TargetBlockState> netherHellIronOre = List.of(OreConfiguration.target(netherrackReplacables,
                 ModBlocks.HELL_IRON_ORE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworldSilverOre = List.of(OreConfiguration.target(stoneReplaceable,
                 ModBlocks.SILVER_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> endEnderOre = List.of(OreConfiguration.target(stoneReplaceable,
+        List<OreConfiguration.TargetBlockState> endEnderOre = List.of(OreConfiguration.target(endReplaceables,
                 ModBlocks.ENDER_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_BLACK_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBlackIronOre, 3));
-        register(context, OVERWORLD_BLOOD_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBloodIronOre, 3));
-        register(context, OVERWORLD_CRIMSON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCrimsonOre, 3));
-        register(context, OVERWORLD_COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCobaltOre, 2));
-        register(context, OVERWORLD_BRUH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBruhOre, 3));
-        register(context, OVERWORLD_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSilverOre, 3));
+        register(context, OVERWORLD_BLACK_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBlackIronOre, 4));
+        register(context, OVERWORLD_BLOOD_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBloodIronOre, 5));
+        register(context, OVERWORLD_CRIMSON_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCrimsonOre, 4));
+        register(context, OVERWORLD_COBALT_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCobaltOre, 3));
+        register(context, OVERWORLD_BRUH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBruhOre, 5));
+        register(context, OVERWORLD_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSilverOre, 4));
 
-        register(context, NETHER_FIRE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
-                ModBlocks.FIRE_ORE.get().defaultBlockState(), 2));
-        register(context, NETHER_HELL_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
-                ModBlocks.HELL_IRON_ORE.get().defaultBlockState(), 4));
+        register(context, NETHER_FIRE_ORE_KEY, Feature.ORE, new OreConfiguration(netherFireOre, 3));
+        register(context, NETHER_HELL_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(netherHellIronOre, 5));
 
-        register(context, END_ENDER_ORE_KEY, Feature.ORE, new OreConfiguration(endReplaceables,
-                ModBlocks.ENDER_ORE.get().defaultBlockState(), 2));
+        register(context, END_ENDER_ORE_KEY, Feature.ORE, new OreConfiguration(endEnderOre, 2));
     }
 
 

@@ -4,7 +4,6 @@ import dev.realz.swords.init.ModBlocks;
 import dev.realz.swords.init.ModCreativeTabs;
 import dev.realz.swords.init.ModItems;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -33,9 +32,4 @@ public class Swords
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
-
-    // Creative Tabs
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
-    }
 }
