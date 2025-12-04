@@ -7,7 +7,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModItemTier implements Tier {
-
+    LOOTING(3, 1000, 7.0F, 6, 0, () -> {
+        return Ingredient.of(ModItems.BLACK_IRON_INGOT.get());
+    }),
     BLACK_IRON(3, 1500, 7.0F, 6, 11, () -> {
         return Ingredient.of(ModItems.BLACK_IRON_INGOT.get());
     }),

@@ -51,15 +51,15 @@ public class ModPlacedFeatures {
                         HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(56))));
 
         register(context, NETHER_FIRE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_FIRE_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(4,
+                ModOrePlacement.commonOrePlacement(8,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))));
         register(context, NETHER_HELL_IRON_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_HELL_IRON_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(7,
+                ModOrePlacement.commonOrePlacement(10,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80))));
 
         register(context, END_ENDER_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_ENDER_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(3,
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-200), VerticalAnchor.absolute(200))));
+                ModOrePlacement.commonOrePlacement(5,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(200))));
     }
 
 

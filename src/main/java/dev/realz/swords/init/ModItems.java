@@ -46,6 +46,10 @@ public class ModItems {
     // Essence
     public static final RegistryObject<Item> DRAGON_ESSENCE = ModCreativeTabs.addToEssenceTab(ITEMS.register("dragon_essence", EssenceBase::new));
 
+    // Solo Swords
+    public static final RegistryObject<SwordItem> LOOTING_SWORD = ModCreativeTabs.addToSwordsTab(ITEMS.register("looting_sword", () ->
+                    new LootingSword(ModItemTier.LOOTING, 1, -2.4F, new Item.Properties())));
+
     // Swords
     public static final RegistryObject<SwordItem> BLACK_IRON_SWORD = ModCreativeTabs.addToSwordsTab(ITEMS.register("black_iron_sword", () ->
             new BlackIronSword(ModItemTier.BLACK_IRON, 2, -2.2F, new Item.Properties())));

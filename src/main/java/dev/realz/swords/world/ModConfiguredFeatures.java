@@ -63,10 +63,10 @@ public class ModConfiguredFeatures {
         register(context, OVERWORLD_BRUH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldBruhOre, 5));
         register(context, OVERWORLD_SILVER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSilverOre, 4));
 
-        register(context, NETHER_FIRE_ORE_KEY, Feature.ORE, new OreConfiguration(netherFireOre, 3));
+        register(context, NETHER_FIRE_ORE_KEY, Feature.ORE, new OreConfiguration(netherFireOre, 4));
         register(context, NETHER_HELL_IRON_ORE_KEY, Feature.ORE, new OreConfiguration(netherHellIronOre, 5));
 
-        register(context, END_ENDER_ORE_KEY, Feature.ORE, new OreConfiguration(endEnderOre, 2));
+        register(context, END_ENDER_ORE_KEY, Feature.ORE, new OreConfiguration(endEnderOre, 5));
     }
 
 
